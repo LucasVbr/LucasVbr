@@ -1,5 +1,5 @@
 # Hi, I am @LucasVbr 👋
-[![Website LucasVbr.io](https://img.shields.io/website-up-down-green-red/http/LucasVbr.io.svg)][Website]
+[![Website](https://img.shields.io/website?label=Portfolio&style=for-the-badge&url=https%3A%2F%2FLucasVbr.io)][Website]
 
 
 ## I am a computer science student
@@ -13,22 +13,29 @@
 
 ### Languages and Tools:
 
-<img align="left" alt="HTML5" width="26px" src="icons/html5.png"/>
-<img align="left" alt="CSS3" width="26px" src="icons/css3.png"/>
-<img align="left" alt="JavaScript" width="26px" src="icons/javascript.png"/>
-<img align="left" alt="Java" width="26px" src="icons/java.png"/>
-<img align="left" alt="Python" width="26px" src="icons/python.png"/>
-<img align="left" alt="C" width="26px" src="icons/c-language.png"/>
-<img align="left" alt="C Sharp" width="26px" src="icons/c-sharp.png"/>
-<img align="left" alt="Bash" width="26px" src="icons/console.png"/>
+<div>
+  <img align="left" alt="HTML5" width="26px" src="icons/html5.png"/>
+  <img align="left" alt="CSS3" width="26px" src="icons/css3.png"/>
+  <img align="left" alt="JavaScript" width="26px" src="icons/javascript.png"/>
+  <img align="left" alt="Java" width="26px" src="icons/java.png"/>
+  <img align="left" alt="Python" width="26px" src="icons/python.png"/>
+  <img align="left" alt="C" width="26px" src="icons/c-language.png"/>
+  <img align="left" alt="C Sharp" width="26px" src="icons/c-sharp.png"/>
+  <img align="left" alt="Bash" width="26px" src="icons/console.png"/>
+</div>
+
+<br/>
+<br/>
+
+<div>
+  <img align="left" alt="Sublime Text" width="26px" src="icons/sublime-text.png"/>
+  <img align="left" alt="IntelliJ Idea" width="26px" src="icons/intellij-idea.png"/>
+  <img align="left" alt="PyCharm" width="26px" src="icons/pycharm.png"/>
+  <img align="left" alt="Visual Studio Code" width="26px" src="icons/visual-studio-code.png"/>
+  <img align="left" alt="Eclipse" width="26px" src="icons/eclipse.png"/>
+</div>
 
 <br />
-
-<img align="left" alt="Sublime Text" width="26px" src="icons/sublime-text.png"/>
-<img align="left" alt="IntelliJ Idea" width="26px" src="icons/intellij-idea.png"/>
-<img align="left" alt="PyCharm" width="26px" src="icons/pycharm.png"/>
-<img align="left" alt="Visual Studio Code" width="26px" src="icons/visual-studio-code.png"/>
-<img align="left" alt="Eclipse" width="26px" src="icons/eclipse.png"/>
 
 ---
 
