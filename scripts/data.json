@@ -1,0 +1,92 @@
+var data = [
+    {
+        "id": "accueil",
+        "name": "Lucas VABRE",
+        "status": "Etudiant en Informatique"
+    },
+    {
+        "id": "a_propos",
+        "info": "Ad incididunt occaecat Lorem enim tempor sit veniam eu elit.",
+        "cv": ""
+    },
+    {
+        "id": "competences",
+        "langage": [
+            {
+                "name": "HTML/CSS",
+                "value": 95
+            },
+            {
+                "name": "Java",
+                "value": 60
+            },
+            {
+                "name": "Python",
+                "value": 50
+            },
+            {
+                "name": "Javascript",
+                "value": 20
+            },
+            {
+                "name": "C",
+                "value": 10
+            }
+        ]
+    },
+    {
+        "id": "projets",
+        "projets": [
+            {
+                "name": "Projet 1",
+                "image": "link",
+                "link": "link"
+            },
+            {
+                "name": "Projet 2",
+                "image": "link",
+                "link": "link"
+            },
+            {
+                "name": "Projet 3",
+                "image": "link",
+                "link": "link"
+            }
+        ]
+    },
+    {
+        "id": "experiences",
+        "experiences": [
+            {
+                "name": "experience 1",
+                "date": "10/10/10",
+                "description": "Infos"
+            },
+            {
+                "name": "experience 2",
+                "date": "10/10/10",
+                "description": "Infos"
+            },
+            {
+                "name": "experience 3",
+                "date": "10/10/10",
+                "description": "Infos"
+            }
+        ]
+    },
+    {
+        "id": "contact",
+        "reseaux": [
+            {
+                "name": "Twitter",
+                "image": "link",
+                "link": "link"
+            },
+            {
+                "name": "Github",
+                "image": "link",
+                "link": "link"
+            }
+        ]
+    }
+]

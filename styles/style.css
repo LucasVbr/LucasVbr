@@ -1,0 +1,72 @@
+:root {
+    scroll-behavior: smooth;
+    /* Variables */
+
+}
+
+body {
+    width: 100wh;
+    margin: 0;
+    padding: 0;
+}
+
+/* Top Bar de Navigation */
+nav {
+    width: 100%;
+    z-index: 999;
+    float: top;
+    position: fixed;
+    background-color: #fff3;
+}
+
+nav li {
+    padding: 0 25px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Contenu de la page */
+
+.content {
+    padding: 50px 0;
+    width: calc(100vw - 40px);
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Sections */
+#accueil {
+    background-color: red;
+    min-height: 100vh;
+}
+
+#a_propos {
+    background-color: blue;
+    min-height: 100vh;
+}
+
+#competences {
+    background-color: violet;
+    min-height: 100vh;
+}
+
+#projets {
+    background-color: yellow;
+    min-height: 100vh;
+}
+
+#experiences {
+    background-color: purple;
+    min-height: 100vh;
+}
+
+#contact {
+    background-color: green;
+    min-height: 100vh;
+}
