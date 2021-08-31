@@ -1,0 +1,8 @@
+<svg class="scroll">
+    <rect  x="4" y="4"
+     width="40" height="70"
+     rx="25" ry="25"
+     stroke="#fff" stroke-width="2"
+     fill="#fff0"/>
+    <circle class="" cx="24" cy="24" r="4" fill="#fff"/>
+</svg>

@@ -1,72 +1,100 @@
 :root {
-    scroll-behavior: smooth;
-    /* Variables */
-
+  scroll-behavior: smooth;
 }
+
+/* Hide scroll bar */
+*::-webkit-scrollbar { display: none; }
 
 body {
-    width: 100wh;
-    margin: 0;
-    padding: 0;
+  width: 100wh;
+  margin: 0;
+  padding: 0;
 }
 
-/* Top Bar de Navigation */
-nav {
+
+/* Tool box */
+.center {
+  position: absolute;
+  text-align: center;
+  vertical-align: middle;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/***** Navigation Top Bar *****/    
+  nav {
     width: 100%;
     z-index: 999;
     float: top;
     position: fixed;
     background-color: #fff3;
-}
+  }
 
-nav li {
-    padding: 0 25px;
+  nav li {
     text-decoration: none;
     display: inline-block;
-}
+  }
 
-nav a {
+  nav a {
+    padding: 16px 0;
+    margin: 0 25px;
     text-decoration: none;
     color: white;
+  }
+/***** End Navigation Top Bar *****/
+
+section {
+  padding: 0 calc(100vw / 10);
+  min-height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-/* Contenu de la page */
-
-.content {
-    padding: 50px 0;
-    width: calc(100vw - 40px);
-    max-width: 1000px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-/* Sections */
 #accueil {
-    background-color: red;
-    min-height: 100vh;
+  background: center no-repeat url("../images/accueil-bg.jpg") #ef476f;
+  background-size: cover;
 }
 
-#a_propos {
-    background-color: blue;
-    min-height: 100vh;
-}
+/***** Scroll *****/
+  .scroll {
+    left: 50%;
+    transform: translateX(calc(50% - 24px));
+  }
 
-#competences {
-    background-color: violet;
-    min-height: 100vh;
-}
+  .scroll circle {
+    -webkit-animation-duration: 1.5s;
+            animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+            animation-name: scroll;
+  }
 
-#projets {
-    background-color: yellow;
-    min-height: 100vh;
-}
+  /* Animation */
+  @-webkit-keyframes scroll {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+  }
 
-#experiences {
-    background-color: purple;
-    min-height: 100vh;
-}
+  @keyframes scroll {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+  }
+/***** End Scroll *****/
 
-#contact {
-    background-color: green;
-    min-height: 100vh;
-}
+#a_propos {background-color: #ffd166}
+
+#projets {background-color: #06d6a0}
+
+#contact {background-color: #118ab2}
