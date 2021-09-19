@@ -7,7 +7,6 @@
 - 🌱 I’m currently learning **Java** and **Python**
 - 💞️ I’m looking to create my own video game
 - 📫 How to reach me `vabre.lucas.pro@gmail.com`
-- ⚡ Fun fact: I would like to create my own game
 - 🎯 [Pydefis]
 - 🚩 [Root Me]
 
