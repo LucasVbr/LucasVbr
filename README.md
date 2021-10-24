@@ -1,5 +1,5 @@
 # Hi, I am @LucasVbr 👋
-[![Website](https://img.shields.io/website?label=Portfolio&style=for-the-badge&url=https%3A%2F%2Flucasvbr.github.io%2FLucasVbr%2F)][Website]
+[![Website](https://img.shields.io/website?label=Portfolio&style=for-the-badge&url=https%3A%2F%2Flucasvbr.github.io%2FPortfolio%2F)][Website]
 
 
 ## I am a computer science student
@@ -59,7 +59,7 @@
 </details>
 
 <!-- Links -->
-[Website]: https://lucasvbr.github.io/LucasVbr/
+[Website]: https://lucasvbr.github.io/Portfolio/
 [Pydefis]: https://pydefis.callicode.fr/user/mhof/LucasVbr/bba98551173e6b21
 [Root Me]: https://www.root-me.org/LucasVbr?lang=fr
 
