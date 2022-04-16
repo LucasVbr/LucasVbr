@@ -63,7 +63,6 @@
 [Pydefis]: https://pydefis.callicode.fr/user/mhof/LucasVbr/bba98551173e6b21
 [Root Me]: https://www.root-me.org/LucasVbr?lang=fr
 
-<center>
 [GitHub Stats]: https://github-readme-stats.vercel.app/api?username=LucasVbr&show_icons=true
 [Top Langs]: https://github-readme-stats.vercel.app/api/top-langs/?username=LucasVbr&layout=compact
-</center>
+
