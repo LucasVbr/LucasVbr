@@ -1,0 +1,59 @@
+<div align="center">
+    <h1>Hi 👋, I'm LucasVbr</h1>
+    <h3>A passionate developer from France</h3>
+</div>
+
+{{#profile-views}}
+<img src="{{img}}" alt="{{alt}}"/>
+{{/profile-views}}
+
+<ul style="{{ remove-bullets }}">
+    <li>🔭 I’m currently working on
+        {{#working}}<a href="{{link}}">{{ text }}</a>{{/working}}
+    </li>
+    <li>🌱 I’m currently learning <b>Symfony</b></li>
+    <li>📫 How to reach me <b>{{ email }}</b></li>
+    <li>💻 Here is my <a href="{{ portfolio-url }}">portfolio</a></li>
+</ul>
+
+<h3>Connect with me:</h3>
+<ul style="{{ remove-bullets }}">
+    <li>
+    {{#connect-with-me}}
+        <a href="{{ link }}"><img src="{{ img }}" alt="{{ alt }}" width="{{ imgSize }}"></a>
+    {{/connect-with-me}}
+    </li>
+</ul>
+
+
+<h3>Language and Tools:</h3>
+<ul style="{{ remove-bullets }}">
+{{#languages-and-tools}}
+    <li>
+    {{# languages }}
+        <a href="{{ link }}"><img src="{{ img }}" alt="{{ alt }}" width="{{ imgSize }}"></a>
+    {{/languages}}
+    </li>
+    <li>
+    {{# frameworks }}
+        <a href="{{ link }}"><img src="{{ img }}" alt="{{ alt }}" width="{{ imgSize }}"></a>
+    {{/frameworks}}
+    </li>
+    <li>
+    {{# tools }}
+        <a href="{{ link }}"><img src="{{ img }}" alt="{{ alt }}" width="{{ imgSize }}"></a>
+    {{/tools}}
+    </li>
+    <li>
+    {{# os }}
+        <a href="{{ link }}"><img src="{{ img }}" alt="{{ alt }}" width="{{ imgSize }}"></a>
+    {{/os}}
+    </li>
+{{/languages-and-tools}}
+</ul>
+
+<div align="center">
+{{#stats}}
+    <img src="{{ img }}" alt="{{ alt }}"><br>
+{{/stats}}
+</div>
