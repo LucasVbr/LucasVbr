@@ -4,9 +4,13 @@ email: "vabre.lucas.pro@gmail.com"
 portfolio-url: "https://lucasvbr.github.io/Portfolio"
 
 # Sections
-profile-views:
-  img: "https://komarev.com/ghpvc/?username=lucasvbr&label=Profile%20views&color=0e75b6&style=flat"
-  alt: "Profile Views"
+badges:
+  -
+    img: "https://komarev.com/ghpvc/?username=lucasvbr&label=Profile%20views&color=0e75b6&style=flat"
+    alt: "Profile Views"
+  -
+    img: "https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points"
+    alt: "freeCodeCamp points"
 
 working:
   link: "https://github.com/LucasVbr/Portfolio"
@@ -34,7 +38,7 @@ connect-with-me:
     alt: "pydefis"
 
 languages-and-tools:
-  languages:
+  - languages:
     - html5:
       link: "https://www.w3.org/html/"
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
@@ -90,7 +94,7 @@ languages-and-tools:
       img: "https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg"
       alt: "bash"
 
-  frameworks:
+  - frameworks:
     - bootstrap:
       link: "https://getbootstrap.com"
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
@@ -111,7 +115,7 @@ languages-and-tools:
       img: "https://angular.io/assets/images/logos/angular/angular.svg"
       alt: "angular"
 
-  tools:
+  - tools:
     - figma:
       link: "https://www.figma.com/"
       img: "https://www.vectorlogo.zone/logos/figma/figma-icon.svg"
@@ -147,7 +151,7 @@ languages-and-tools:
       img: "https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg"
       alt: "sqlite"
 
-  os:
+  - os:
     - android:
       link: "https://developer.android.com"
       img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg"

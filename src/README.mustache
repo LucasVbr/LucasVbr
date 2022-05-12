@@ -3,53 +3,26 @@
     <h3>A passionate developer from France</h3>
 </div>
 
-{{#profile-views}}
-<img src="{{img}}" alt="{{alt}}"/>
-{{/profile-views}}
+{{#badges}}{{> image }} {{/badges}}
 
 <ul>
-    <li>🔭 I’m currently working on
-        {{#working}}<a href="{{link}}">{{ text }}</a>{{/working}}
-    </li>
+    <li>🔭 I’m currently working on {{#working}}{{>link}}{{/working}}</li>
     <li>🌱 I’m currently learning <b>Symfony</b></li>
     <li>📫 How to reach me <b>{{ email }}</b></li>
     <li>💻 Here is my <a href="{{ portfolio-url }}">portfolio</a></li>
 </ul>
 
 <h3>Connect with me:</h3>
-<p>
-{{#connect-with-me}}
-    <a href="{{ link }}"><img src="{{ img }}" alt="{{ alt }}" width="{{ imgSize }}"></a>
-{{/connect-with-me}}
-</p>
-
+<p>{{#connect-with-me}}{{> linkOnImage}} {{/connect-with-me}}</p>
 
 <h3>Language and Tools:</h3>
 {{#languages-and-tools}}
-<p>
-{{# languages }}
-    <a href="{{ link }}"><img src="{{ img }}" alt="{{ alt }}" width="{{ imgSize }}"></a>
-{{/languages}}
-</p>
-<p>
-{{# frameworks }}
-    <a href="{{ link }}"><img src="{{ img }}" alt="{{ alt }}" width="{{ imgSize }}"></a>
-{{/frameworks}}
-</p>
-<p>
-{{# tools }}
-    <a href="{{ link }}"><img src="{{ img }}" alt="{{ alt }}" width="{{ imgSize }}"></a>
-{{/tools}}
-</p>
-<p>
-{{# os }}
-    <a href="{{ link }}"><img src="{{ img }}" alt="{{ alt }}" width="{{ imgSize }}"></a>
-{{/os}}
-</p>
+{{# languages }}{{> linkOnImage}} {{/languages}}
+{{# frameworks }}{{> linkOnImage}} {{/frameworks}}
+{{# tools }}{{> linkOnImage}} {{/tools}}
+{{# os }}{{> linkOnImage}} {{/os}}
 {{/languages-and-tools}}
 
 <div align="center">
-{{#stats}}
-    <img src="{{ img }}" alt="{{ alt }}"><br>
-{{/stats}}
+    {{#stats}}{{>image}}<br>{{/stats}}
 </div>
