@@ -4,6 +4,7 @@ __author__ = "LucasVbr"
 __version__ = "3.0.0"
 
 from flask import render_template
+import requests
 import flask
 import json
 
@@ -18,9 +19,12 @@ if __name__ == "__main__":
     with open(DATA_FILE) as file:
         data = json.load(file)
 
+    # Get random quote
+    quote = requests.get("https://api.quotable.io/random")
+
     # Build from template and data
     with app.app_context():
-        rendered = render_template(TEMPLATE_FILE, data=data)
+        rendered = render_template(TEMPLATE_FILE, data=data, quote=quote.json())
 
     # Generate Markdown file
     with open(OUTPUT_FILE, "w", encoding="utf8") as file:

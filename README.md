@@ -3,6 +3,12 @@
 # Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" alt="👋" width="50px"/>, I'm LucasVbr
 ### A passionate developer from France
 
+---
+
+"*Talent is God-given; be humble. Fame is man-given; be thankful. Conceit is self-given; be careful.*"
+
+by Harvey Mackay
+
 </div>
 
 <!-- Badges -->
