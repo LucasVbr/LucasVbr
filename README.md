@@ -6,9 +6,7 @@
 </div>
 
 <!-- Badges -->
-<img src="https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat" alt="Profile Views" /> 
-<img src="https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points" alt="FreeCodeCamp Points" /> 
-
+<img src="https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat" alt="Profile Views" /> <img src="https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points" alt="FreeCodeCamp Points" /> 
 
 <!-- About -->
 - 🔭 I'm currently working on <a href="https://github.com/LucasVbr/Portfolio">a new version of my portfolio</a>
