@@ -1,13 +1,13 @@
-<!-- Header --><center>
+<!-- Header --><div align="center">
 
 # Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" alt="👋" width="50px"/>, I'm LucasVbr
 ### A passionate developer from France
 
-</center>
+</div>
 
 <!-- Badges -->
-<img src="https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat" alt="Profile Views" />
-<img src="https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points" alt="FreeCodeCamp Points" />
+<img src="https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat" alt="Profile Views" /> 
+<img src="https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points" alt="FreeCodeCamp Points" /> 
 
 
 <!-- About -->
@@ -60,10 +60,10 @@
 
 
 <!-- Stats -->
-<center>
+<div align="center">
 
 <img src="https://github-readme-stats.vercel.app/api?username=lucasvbr&show_icons=true&locale=en" alt="githubStats" />
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=lucasvbr&show_icons=true&locale=en&layout=compact" alt="mostUsedLanguages" />
 
 
-</center>
+</div>
