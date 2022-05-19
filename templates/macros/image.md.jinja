@@ -1,0 +1,3 @@
+{% macro img(src, alt='image', width='') -%}
+    <img src="{{ src }}" alt="{{ alt }}" {% if width != '' %}width="{{ width }}"{% endif %}/>
+{%- endmacro %}

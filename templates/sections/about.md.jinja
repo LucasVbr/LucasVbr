@@ -1,0 +1,15 @@
+{% for element in data.about -%}
+-
+    {%- for part in element -%}
+    {{ " " }}
+        {%- if part.type == "icon" or part.type == "text" -%}
+            {%- if part.isBold -%}**{%- endif -%}
+            {{ part.content }}
+            {%- if part.isBold -%}**{%- endif -%}
+        {%- elif part.type == "a" -%}
+            {{ a(part.href, part.content) }}
+        {%- else -%}
+            {{"Error: No type found"}}
+        {%- endif -%}
+    {%- endfor %}
+{% endfor %}

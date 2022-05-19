@@ -1,0 +1,4 @@
+## Connect With Me:
+{% for image in data.connectWithMe -%}
+    {{ a(image.href, img(image.src, image.alt, image.width)) }}
+{% endfor %}
