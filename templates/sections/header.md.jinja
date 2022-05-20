@@ -3,10 +3,16 @@
 # Hi {{ img(data.hi.src, data.hi.alt, data.hi.width) }}, I'm LucasVbr
 ### A passionate developer from France
 
----
-
-"*{{ quote.content }}*"
-
-by {{ quote.author }}
+<table>
+  <caption>by {{ quote.author }}</caption>
+  <thead>
+    <tr>
+      <th>Quote of the day</th>
+    </tr>
+  <thead>
+  <tr>
+    <td>"*{{ quote.content }}*"</td>
+  </tr>
+</table>
 
 </div>
