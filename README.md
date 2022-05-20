@@ -5,9 +5,9 @@
 
 ---
 
-"*Talent is God-given; be humble. Fame is man-given; be thankful. Conceit is self-given; be careful.*"
+"*Parents can only give good advice or put them on the right paths, but the final forming of a person's character lies in their own hands.*"
 
-by Harvey Mackay
+by Anne Frank
 
 </div>
 
