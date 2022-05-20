@@ -4,15 +4,13 @@
 ### A passionate developer from France
 
 <table>
-  <caption>by Ralph Waldo Emerson</caption>
   <thead>
-    <tr>
-      <th>Quote of the day</th>
-    </tr>
+    <tr><th>Quote of the day</th></tr>
   <thead>
-  <tr>
-    <td>"*Life is a succession of lessons, which must be lived to be understood.*"</td>
-  </tr>
+  
+  <tbody>
+    <tr><td><b>"Respect should be earned by actions, and not acquired by years."<b><br>by Frank Lloyd Wright</td></tr>
+  </tbody>
 </table>
 
 </div>
