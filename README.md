@@ -9,10 +9,10 @@
   <thead>
   
   <tbody>
-    <tr><td>
-      <b>"You can't blame gravity for falling in love."</b><br>
-      <i>by Albert Einstein</i>
-    </td></tr>
+    <tr><td><center>
+      <b>"Parents can only give good advice or put them on the right paths, but the final forming of a person's character lies in their own hands."</b><br>
+      <i>by Anne Frank</i>
+    </center></td></tr>
   </tbody>
 </table>
 
