@@ -3,11 +3,17 @@
 # Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" alt="👋" width="50px"/>, I'm LucasVbr
 ### A passionate developer from France
 
----
-
-"*Parents can only give good advice or put them on the right paths, but the final forming of a person's character lies in their own hands.*"
-
-by Anne Frank
+<table>
+  <caption>by Ralph Waldo Emerson</caption>
+  <thead>
+    <tr>
+      <th>Quote of the day</th>
+    </tr>
+  <thead>
+  <tr>
+    <td>"*Life is a succession of lessons, which must be lived to be understood.*"</td>
+  </tr>
+</table>
 
 </div>
 
