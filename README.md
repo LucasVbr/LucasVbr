@@ -9,7 +9,10 @@
   <thead>
   
   <tbody>
-    <tr><td><b>"Respect should be earned by actions, and not acquired by years."<b><br>by Frank Lloyd Wright</td></tr>
+    <tr><td>
+      <b>"You can't blame gravity for falling in love."</b><br>
+      <i>by Albert Einstein</i>
+    </td></tr>
   </tbody>
 </table>
 
