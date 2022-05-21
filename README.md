@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"Parents can only give good advice or put them on the right paths, but the final forming of a person's character lies in their own hands."</b><br>
-      <i>by Anne Frank</i>
+      <b>"It is the province of knowledge to speak, and it is the privilege of wisdom to listen."</b><br>
+      <i>by Oliver Wendell Holmes Jr.</i>
     </center></td></tr>
   </tbody>
 </table>
