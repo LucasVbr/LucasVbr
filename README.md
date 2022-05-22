@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"It is the province of knowledge to speak, and it is the privilege of wisdom to listen."</b><br>
-      <i>by Oliver Wendell Holmes Jr.</i>
+      <b>"Not engaging in ignorance is wisdom."</b><br>
+      <i>by Bodhidharma</i>
     </center></td></tr>
   </tbody>
 </table>
