@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world."</b><br>
-      <i>by Buddha</i>
+      <b>"What worries you masters you."</b><br>
+      <i>by Haddon Robinson</i>
     </center></td></tr>
   </tbody>
 </table>
@@ -34,7 +34,7 @@
 <a href="https://www.linkedin.com/in/lucasvbr"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Linkedin" width="35px"/></a>
 <a href="https://www.root-me.org/LucasVbr?lang=fr"><img src="https://www.root-me.org/IMG/logo/siteon0.svg" alt="RootMe" width="35px"/></a>
 <a href="https://pydefis.callicode.fr/user/mhof/LucasVbr/bba98551173e6b21"><img src="https://pydefis.callicode.fr/static/callicode-vsm.png" alt="PyDefis" width="35px"/></a>
-<a href="https://www.freecodecamp.org/LucasVbr"><img src="https://d33wubrfki0l68.cloudfront.net/2f7693e1933ac514c960f51ceae72c91c6716eb2/b2efd/img/fcc_primary_small.svg" alt="FreeCodeCamp" width="35px"/></a>
+<a href="https://www.freecodecamp.org/LucasVbr"><img src="https://d33wubrfki0l68.cloudfront.net/bbfa33a202e8612d49b6c1ed05c1fdd8e4001566/bbdd1/img/fcc_secondary_small.svg" alt="FreeCodeCamp" width="35px"/></a>
 
 
 <!-- Language and Tools -->
