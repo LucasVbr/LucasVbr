@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"Not engaging in ignorance is wisdom."</b><br>
-      <i>by Bodhidharma</i>
+      <b>"We are what we think. All that we are arises with our thoughts. With our thoughts, we make the world."</b><br>
+      <i>by Buddha</i>
     </center></td></tr>
   </tbody>
 </table>
