@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"What worries you masters you."</b><br>
-      <i>by Haddon Robinson</i>
+      <b>"Many sophisticated, intelligent people lack wisdom and common sense."</b><br>
+      <i>by Joyce Meyer</i>
     </center></td></tr>
   </tbody>
 </table>
