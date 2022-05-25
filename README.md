@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"Many sophisticated, intelligent people lack wisdom and common sense."</b><br>
-      <i>by Joyce Meyer</i>
+      <b>"We love life, not because we are used to living but because we are used to loving."</b><br>
+      <i>by Friedrich Nietzsche</i>
     </center></td></tr>
   </tbody>
 </table>
