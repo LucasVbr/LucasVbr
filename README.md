@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"We love life, not because we are used to living but because we are used to loving."</b><br>
-      <i>by Friedrich Nietzsche</i>
+      <b>"Without some goals and some efforts to reach it, no man can live."</b><br>
+      <i>by John Dewey</i>
     </center></td></tr>
   </tbody>
 </table>
