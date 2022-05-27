@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"Without some goals and some efforts to reach it, no man can live."</b><br>
-      <i>by John Dewey</i>
+      <b>"Nature gave us one tongue and two ears so we could hear twice as much as we speak."</b><br>
+      <i>by Epictetus</i>
     </center></td></tr>
   </tbody>
 </table>
