@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"Nature gave us one tongue and two ears so we could hear twice as much as we speak."</b><br>
-      <i>by Epictetus</i>
+      <b>"Watch the little things; a small leak will sink a great ship."</b><br>
+      <i>by Benjamin Franklin</i>
     </center></td></tr>
   </tbody>
 </table>
