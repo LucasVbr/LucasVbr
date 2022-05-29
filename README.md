@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"Watch the little things; a small leak will sink a great ship."</b><br>
-      <i>by Benjamin Franklin</i>
+      <b>"You cannot be lonely if you like the person you're alone with."</b><br>
+      <i>by Wayne Dyer</i>
     </center></td></tr>
   </tbody>
 </table>
