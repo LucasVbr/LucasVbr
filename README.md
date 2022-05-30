@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"You cannot be lonely if you like the person you're alone with."</b><br>
-      <i>by Wayne Dyer</i>
+      <b>"You do not become good by trying to be good, but by finding the goodness that is already within you."</b><br>
+      <i>by Eckhart Tolle</i>
     </center></td></tr>
   </tbody>
 </table>
