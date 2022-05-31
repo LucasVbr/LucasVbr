@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"You do not become good by trying to be good, but by finding the goodness that is already within you."</b><br>
-      <i>by Eckhart Tolle</i>
+      <b>"Love, friendship and respect do not unite people as much as a common hatred for something."</b><br>
+      <i>by Anton Chekhov</i>
     </center></td></tr>
   </tbody>
 </table>
