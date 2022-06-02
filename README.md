@@ -1,7 +1,8 @@
 <!-- Header --><div align="center">
 
-# Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" alt="👋" width="50px"/>, I'm LucasVbr
-### A passionate developer from France
+<h1>Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" alt="👋" width="50px" height="50px"/>, I'm LucasVbr</h1>
+
+<h3>A passionate developer from France</h3>
 
 <table>
   <thead>
