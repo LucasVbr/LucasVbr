@@ -10,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"Give a man a fish and you feed him for a day. Teach him how to fish and you feed him for a lifetime."</b><br>
-      <i>by Laozi</i>
+      <b>"You don't choose your family. They are God's gift to you, as you are to them."</b><br>
+      <i>by Desmond Tutu</i>
     </center></td></tr>
   </tbody>
 </table>
