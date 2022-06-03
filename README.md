@@ -1,8 +1,7 @@
 <!-- Header --><div align="center">
 
-<h1>Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" alt="👋" width="50px" height="50px"/>, I'm LucasVbr</h1>
-
-<h3>A passionate developer from France</h3>
+# Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" alt="👋" width="50px"/>, I'm LucasVbr
+### A passionate developer from France
 
 <table>
   <thead>
@@ -11,8 +10,8 @@
   
   <tbody>
     <tr><td><center>
-      <b>"You don't choose your family. They are God's gift to you, as you are to them."</b><br>
-      <i>by Desmond Tutu</i>
+      <b>"Blessed are the hearts that can bend; they shall never be broken."</b><br>
+      <i>by Albert Camus</i>
     </center></td></tr>
   </tbody>
 </table>
