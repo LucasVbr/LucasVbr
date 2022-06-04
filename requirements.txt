@@ -1,4 +1,4 @@
 flask~=2.1.2
 requests~=2.27.1
-simpleicons~=6.23.0
+simpleicons~=4.4.0.2
 colour~=0.1.5
