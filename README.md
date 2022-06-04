@@ -38,7 +38,7 @@ I'm Lucàs, a passionate developer from Rodez, France.
 
 ---
 
-<center>
+<div align="center">
 
 This README is generated every day.<br>
 Last refresh: **Saturday 04 June 22, 22:25**<br>
@@ -48,4 +48,4 @@ Last refresh: **Saturday 04 June 22, 22:25**<br>
 
 *inspired by [Thomas Guibert](https://github.com/thmsgbrt)*
 
-</center>
+</div>
