@@ -1,6 +1,0 @@
-## Languages and Tools:
-{% for images in data.languagesAndTools -%}
-{% for image in images -%}
-    {{ a(image.href, img(image.src, image.alt, image.width)) }}
-{% endfor %}
-{% endfor -%}

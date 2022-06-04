@@ -1,80 +1,51 @@
-<!-- Header --><div align="center">
+# Hello there ! <img src="./img/Hi.gif" alt="Wave hand" width="50px" height="50px"/>
 
-# Hi <img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" alt="👋" width="50px"/>, I'm LucasVbr
-### A passionate developer from France
+I'm Lucàs, a passionate developer from Rodez, France.
+<br>Currently, the weather is: **+23 °C**, **Thunderstorm in vicinity, hail with thunderstorm**
 
-<table>
-  <thead>
-    <tr><th>Quote of the day</th></tr>
-  <thead>
-  
-  <tbody>
-    <tr><td><center>
-      <b>"Watch the little things; a small leak will sink a great ship."</b><br>
-      <i>by Benjamin Franklin</i>
-    </center></td></tr>
-  </tbody>
-</table>
-
-</div>
-
-<!-- Badges -->
-<img src="https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat" alt="Profile Views" /> <img src="https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points" alt="FreeCodeCamp Points" /> 
-
-<!-- About -->
-- 🔭 I'm currently working on <a href="https://github.com/LucasVbr/Portfolio">a new version of my portfolio</a>
-- 🌱 I'm currently learning **Symfony**
-- 📫 How to reach me **vabre.lucas.pro@gmail.com**
-- 💻 Here is <a href="https://lucasvbr.github.io/Portfolio">my portfolio</a>
-
-
-<!-- Connect With Me -->
-## Connect With Me:
-<a href="https://codepen.io/LucasVbr"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="CodePen" width="35px"/></a>
-<a href="https://www.linkedin.com/in/lucasvbr"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Linkedin" width="35px"/></a>
-<a href="https://www.root-me.org/LucasVbr?lang=fr"><img src="https://www.root-me.org/IMG/logo/siteon0.svg" alt="RootMe" width="35px"/></a>
-<a href="https://pydefis.callicode.fr/user/mhof/LucasVbr/bba98551173e6b21"><img src="https://pydefis.callicode.fr/static/callicode-vsm.png" alt="PyDefis" width="35px"/></a>
-<a href="https://www.freecodecamp.org/LucasVbr"><img src="https://d33wubrfki0l68.cloudfront.net/bbfa33a202e8612d49b6c1ed05c1fdd8e4001566/bbdd1/img/fcc_secondary_small.svg" alt="FreeCodeCamp" width="35px"/></a>
+### I code with
+![Symfony](https://img.shields.io/static/v1?label=&message=Symfony&color=%23000000&logo=symfony&logoColor=white)
+![Microsoft SQL Server](https://img.shields.io/static/v1?label=&message=Microsoft+SQL+Server&color=%23CC2927&logo=microsoftsqlserver&logoColor=white)
+![Git](https://img.shields.io/static/v1?label=&message=Git&color=%23F05032&logo=git&logoColor=white)
+![Pug](https://img.shields.io/static/v1?label=&message=Pug&color=%23A86454&logo=pug&logoColor=white)
+![HTML5](https://img.shields.io/static/v1?label=&message=HTML5&color=%23E34F26&logo=html5&logoColor=white)
+![Figma](https://img.shields.io/static/v1?label=&message=Figma&color=%23F24E1E&logo=figma&logoColor=white)
+![Linux](https://img.shields.io/static/v1?label=&message=Linux&color=%23FCC624&logo=linux&logoColor=white)
+![JavaScript](https://img.shields.io/static/v1?label=&message=JavaScript&color=%23F7DF1E&logo=javascript&logoColor=white)
+![GNU Bash](https://img.shields.io/static/v1?label=&message=GNU+Bash&color=%234EAA25&logo=gnubash&logoColor=white)
+![Android](https://img.shields.io/static/v1?label=&message=Android&color=%233DDC84&logo=android&logoColor=white)
+![Bulma](https://img.shields.io/static/v1?label=&message=Bulma&color=%2300D1B2&logo=bulma&logoColor=white)
+![MariaDB](https://img.shields.io/static/v1?label=&message=MariaDB&color=%23003545&logo=mariadb&logoColor=white)
+![Java](https://img.shields.io/static/v1?label=&message=Java&color=%23007396&logo=java&logoColor=white)
+![SQLite](https://img.shields.io/static/v1?label=&message=SQLite&color=%23003B57&logo=sqlite&logoColor=white)
+![CSS3](https://img.shields.io/static/v1?label=&message=CSS3&color=%231572B6&logo=css3&logoColor=white)
+![MySQL](https://img.shields.io/static/v1?label=&message=MySQL&color=%234479A1&logo=mysql&logoColor=white)
+![Windows](https://img.shields.io/static/v1?label=&message=Windows&color=%230078D6&logo=windows&logoColor=white)
+![Python](https://img.shields.io/static/v1?label=&message=Python&color=%233776AB&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/static/v1?label=&message=TypeScript&color=%233178C6&logo=typescript&logoColor=white)
+![C](https://img.shields.io/static/v1?label=&message=C&color=%23A8B9CC&logo=c&logoColor=white)
+![PostgreSQL](https://img.shields.io/static/v1?label=&message=PostgreSQL&color=%234169E1&logo=postgresql&logoColor=white)
+![PHP](https://img.shields.io/static/v1?label=&message=PHP&color=%23777BB4&logo=php&logoColor=white)
+![Bootstrap](https://img.shields.io/static/v1?label=&message=Bootstrap&color=%237952B3&logo=bootstrap&logoColor=white)
+![Sass](https://img.shields.io/static/v1?label=&message=Sass&color=%23CC6699&logo=sass&logoColor=white)
+![Angular](https://img.shields.io/static/v1?label=&message=Angular&color=%23DD0031&logo=angular&logoColor=white)
 
 
-<!-- Language and Tools -->
-## Languages and Tools:
-<a href="https://www.w3.org/html/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="HTML5" width="35px"/></a>
-<a href="https://www.w3schools.com/css/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS3" width="35px"/></a>
-<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="Javascript" width="35px"/></a>
-<a href="https://pugjs.org"><img src="https://cdn.worldvectorlogo.com/logos/pug.svg" alt="pug" width="35px"/></a>
-<a href="https://sass-lang.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" alt="SASS" width="35px"/></a>
-<a href="https://www.typescriptlang.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="Typescript" width="35px"/></a>
-<a href="https://www.php.net"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="PHP" width="35px"/></a>
-<a href="https://www.java.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="35px"/></a>
-<a href="https://www.cprogramming.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="35px"/></a>
-<a href="https://www.python.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="35px"/></a>
-<a href="https://www.gnu.org/software/bash/"><img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="Bash" width="35px"/></a>
+### Where to find me
+[![Github](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LucasVbr)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasvbr)
+[![FreeCodeCamp](https://img.shields.io/badge/freecodecamp-27273D?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/LucasVbr)
 
-<a href="https://getbootstrap.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg" alt="Bootstrap" width="35px"/></a>
-<a href="https://bulma.io/"><img src="https://raw.githubusercontent.com/gilbarbara/logos/804dc257b59e144eaca5bc6ffd16949752c6f789/logos/bulma.svg" alt="Bulma" width="35px"/></a>
-<a href="https://symfony.com"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/symfony/symfony-original.svg" alt="Symfony" width="35px"/></a>
-<a href="https://angular.io"><img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular" width="35px"/></a>
+---
 
-<a href="https://www.figma.com/"><img src="https://www.vectorlogo.zone/logos/figma/figma-icon.svg" alt="Figma" width="35px"/></a>
-<a href="https://git-scm.com/"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="Git" width="35px"/></a>
-<a href="https://mariadb.org/"><img src="https://www.vectorlogo.zone/logos/mariadb/mariadb-icon.svg" alt="MariaDB" width="35px"/></a>
-<a href="https://www.microsoft.com/en-us/sql-server"><img src="https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" alt="SqlServer" width="35px"/></a>
-<a href="https://www.mysql.com/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="MySql" width="35px"/></a>
-<a href="https://www.postgresql.org"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg" alt="PostgreSql" width="35px"/></a>
-<a href="https://www.sqlite.org/"><img src="https://www.vectorlogo.zone/logos/sqlite/sqlite-icon.svg" alt="sqlite" width="35px"/></a>
+<center>
 
-<a href="https://developer.android.com"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="Android" width="35px"/></a>
-<a href="https://www.linux.org/"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="Linux" width="35px"/></a>
-<a href="https://developer.microsoft.com/fr-fr/windows/"><img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/windows8/windows8-original.svg" alt="Windows" width="35px"/></a>
+This README is generated every day.<br>
+Last refresh: **Saturday 04 June 22, 22:25**<br>
+![Profile Views](https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat)
+![FreeCodeCamp Points](https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points)
+<br>![Made with love](https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red)
 
+*inspired by [Thomas Guibert](https://github.com/thmsgbrt)*
 
-
-<!-- Stats -->
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=lucasvbr&show_icons=true&locale=en" alt="githubStats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=lucasvbr&show_icons=true&locale=en&layout=compact" alt="mostUsedLanguages" />
-
-
-</div>
+</center>
