@@ -38,14 +38,14 @@ I'm Lucàs, a passionate developer from Rodez, France.
 
 ---
 
-<div align="center">
+<center>
 
 This README is generated every day.<br>
-Last refresh: **Saturday 04 June 22, 22:25**<br>
+Last refresh: **Saturday 04 June 22, 22:36**<br>
 ![Profile Views](https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat)
 ![FreeCodeCamp Points](https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points)
 <br>![Made with love](https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red)
 
 *inspired by [Thomas Guibert](https://github.com/thmsgbrt)*
 
-</div>
+</center>

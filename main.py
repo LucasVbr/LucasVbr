@@ -11,33 +11,29 @@ from FileUtils import *
 from datetime import datetime
 
 TEMPLATE_FILE = "index.md.jinja"
-DATA_FILE = "data.old.json"
 TOOLS_DATA = "tools.json"
 OUTPUT_FILE = "README.md"
 
 app = flask.Flask('my app')
 
 if __name__ == "__main__":
-    # Get Data from JSON
-    data = getJsonData(DATA_FILE)
-
+    # Get tools badges
     toolsData = getJsonData(TOOLS_DATA)
     tools = [Badge(toolName) for toolName in toolsData]
-
     tools.sort(key=getBadgeColor)  # Sort by color
 
+    # Get Weather
     request = requests.get("https://goweather.herokuapp.com/weather/rodez")
-
     weather_status = request.status_code
     weather = request.json()
 
+    # Get current datetime
     today = datetime.today().strftime("%A %d %B %y, %H:%M")
 
     # Build from template and data
     with app.app_context():
         rendered = render_template(
             TEMPLATE_FILE,
-            # data=data,
             tools=tools,
             weather_status=weather_status,
             weather=weather,
