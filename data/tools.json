@@ -3,8 +3,6 @@
   "CSS3",
   "JavaScript",
   "Pug",
-  "Sass",
-  "TypeScript",
   "PHP",
   "Java",
   "C",
@@ -17,11 +15,14 @@
   "Figma",
   "Git",
   "MariaDB",
-  "Microsoft SQL Server",
   "MySQL",
   "PostgreSQL",
   "SQLite",
   "Android",
   "Linux",
-  "Windows"
+  "Windows",
+  "Insomnia",
+  "JetBrains",
+  "Visual Studio Code",
+  "FileZilla"
 ]

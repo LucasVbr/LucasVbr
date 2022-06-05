@@ -30,18 +30,20 @@ class Badge:
 
         icon = icons.get(self.name)
 
-        params = {
-            "label": "",
-            "message": icon.title,
-            "color": f"#{icon.hex}",
-            "logo": icon.slug,
-            "logoColor": LOGO_COLOR
-        }
-        urlParams = urlencode(params)
-
-        self.url = f"{BASE_URL}?{urlParams}"
-        self.color = Color(params["color"]).hsl
+        try:
+            params = {
+                "label": "",
+                "message": icon.title,
+                "color": f"#{icon.hex}",
+                "logo": icon.slug,
+                "logoColor": LOGO_COLOR
+            }
+            urlParams = urlencode(params)
+            self.url = f"{BASE_URL}?{urlParams}"
+            self.color = Color(params["color"]).get_hue()
+        except Exception:
+            pass  # Let default values
 
 
 def getBadgeColor(badge: Badge) -> float:
-    return badge.color[0]
+    return badge.color

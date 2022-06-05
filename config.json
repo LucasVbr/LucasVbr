@@ -1,0 +1,13 @@
+{
+  "info": {
+    "name": "Lucàs",
+    "city": "Rodez"
+  },
+  "template_file": "index.md.jinja",
+  "output_file": "README.md",
+  "data_files": [
+    "data/tools.json",
+    "data/links.json",
+    "data/footer_badges.json"
+  ]
+}

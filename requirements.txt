@@ -1,4 +1,4 @@
 flask~=2.1.2
-requests~=2.27.1
 colour~=0.1.5
 simpleicons~=6.23.0
+meteofrance-api~=1.0.2
