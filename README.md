@@ -1,7 +1,7 @@
 # Hello there ! <img src="./img/Hi.gif" alt="Wave hand" width="50px" height="50px"/>
 
 I'm Lucàs, a passionate developer from Rodez, France.
-<br>Currently, the weather is: **+23 °C**, **Thunderstorm in vicinity, hail with thunderstorm**
+
 
 ### I code with
 ![Symfony](https://img.shields.io/static/v1?label=&message=Symfony&color=%23000000&logo=symfony&logoColor=white)
@@ -41,7 +41,7 @@ I'm Lucàs, a passionate developer from Rodez, France.
 <div align="center">
 
 This README is generated every day.<br>
-Last refresh: **Saturday 04 June 22, 22:53**<br>
+Last refresh: **Sunday 05 June 22, 06:13**<br>
 ![Profile Views](https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat)
 ![FreeCodeCamp Points](https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points)
 <br>![Made with love](https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red)
