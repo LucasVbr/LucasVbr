@@ -32,7 +32,7 @@ def getDataSubfiles(files: list):
 def convertToolBadges(listToolName: list) -> list[dict[str, str]]:
     tools = [Badge(toolName) for toolName in listToolName]
     tools.sort(key=getBadgeColor)  # Sort by color
-    return [{"url": badge.url, "name": badge.name} for badge in tools]
+    return [{"src": badge.url, "alt": badge.name} for badge in tools]
 
 
 def getWeather(city: str) -> dict:

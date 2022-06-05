@@ -1,7 +1,9 @@
-# Hello there ! <img src="./img/Hi.gif" alt="Wave hand" width="50px" height="50px"/>
 
-I'm Lucàs, a passionate developer from Rodez, France.
-<br>Currently, the weather is: **17.4°C**, **Few showers**
+
+# Hello there ! <img src="./img/Hi.gif" alt="Wave hand" width="50" height="50"/>
+
+I'm Lucàs, a passionate developer from <img src="https://camo.githubusercontent.com/810c0059ec880d3bf22c12f8ecd24d39ae1c9ee5d294cd397e6f414738d9cdd8/68747470733a2f2f63646e2d69636f6e732d706e672e666c617469636f6e2e636f6d2f3531322f3139372f3139373536302e706e67" alt="France Image Icon" width="12" height="12"/> Rodez, France.
+<br>Currently, the weather is: **18.5°C**, **Very cloudy**
 
 ### I code with
 ![Symfony](https://img.shields.io/static/v1?label=&message=Symfony&color=%23000000&logo=symfony&logoColor=white)
@@ -21,6 +23,7 @@ I'm Lucàs, a passionate developer from Rodez, France.
 ![SQLite](https://img.shields.io/static/v1?label=&message=SQLite&color=%23003B57&logo=sqlite&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/static/v1?label=&message=Visual+Studio+Code&color=%23007ACC&logo=visualstudiocode&logoColor=white)
 ![CSS3](https://img.shields.io/static/v1?label=&message=CSS3&color=%231572B6&logo=css3&logoColor=white)
+![Cplusplus](https://img.shields.io/static/v1?label=&message=C%2B%2B&color=%2300599C&logo=cplusplus&logoColor=white)
 ![MySQL](https://img.shields.io/static/v1?label=&message=MySQL&color=%234479A1&logo=mysql&logoColor=white)
 ![Windows](https://img.shields.io/static/v1?label=&message=Windows&color=%230078D6&logo=windows&logoColor=white)
 ![Python](https://img.shields.io/static/v1?label=&message=Python&color=%233776AB&logo=python&logoColor=white)
@@ -33,16 +36,16 @@ I'm Lucàs, a passionate developer from Rodez, France.
 
 
 ### Where to find me
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LucasVbr)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucasvbr)
-[![FreeCodeCamp](https://img.shields.io/badge/freecodecamp-27273D?style=for-the-badge&logo=freecodecamp&logoColor=white)](https://www.freecodecamp.org/LucasVbr)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](image.href)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](image.href)
+[![FreeCodeCamp](https://img.shields.io/badge/freecodecamp-27273D?style=for-the-badge&logo=freecodecamp&logoColor=white)](image.href)
 
 ---
 
 <div align="center">
 
 This README is generated every day.<br>
-Last refresh: **Sunday 05 June 22, 12:07**<br>
+Last refresh: **Sunday 05 June 22, 12:34**<br>
 ![Profile Views](https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat)
 ![FreeCodeCamp Points](https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points)
 ![Made with love](https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red)

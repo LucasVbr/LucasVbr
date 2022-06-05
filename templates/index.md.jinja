@@ -1,16 +1,18 @@
-# Hello there ! <img src="./img/Hi.gif" alt="Wave hand" width="50px" height="50px"/>
+{% from 'macro/image.md.jinja' import image, imageWithSize, imageWithLink %}
 
-I'm {{ data.info.name }}, a passionate developer from {{ data.info.city }}, France.
+# Hello there ! {{ imageWithSize(data.info.hi_img) }}
+
+I'm {{ data.info.name }}, a passionate developer from {{ imageWithSize(data.info.france_img) }} {{ data.info.city }}, France.
 <br>Currently, the weather is: **{{ data.weather.temperature }}°C**, **{{ data.weather.description }}**
 
 ### I code with
-{% for image in data.tools -%}
-    ![{{ image.name }}]({{ image.url }})
+{% for img in data.tools -%}
+    {{ image(img) }}
 {% endfor %}
 
 ### Where to find me
-{% for image in data.links -%}
-    [![{{ image.alt }}]({{ image.src }})]({{ image.href }})
+{% for img in data.links -%}
+    {{ imageWithLink(img) }}
 {% endfor %}
 ---
 
@@ -18,8 +20,8 @@ I'm {{ data.info.name }}, a passionate developer from {{ data.info.city }}, Fran
 
 This README is generated every day.<br>
 Last refresh: **{{ data.today }}**<br>
-{% for image in data.footer_badges -%}
-    ![{{ image.alt }}]({{ image.src }})
+{% for img in data.footer_badges -%}
+    {{ image(img) }}
 {% endfor %}
 
 *inspired by [Thomas Guibert](https://github.com/thmsgbrt)*
