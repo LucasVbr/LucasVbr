@@ -16,11 +16,6 @@ __version__ = '0.1'
 
 
 def getDataSubfiles(files: list):
-    """
-
-    :param files:
-    :return:
-    """
     contents = {}
     for file in files:
         baseName = os.path.basename(file)
