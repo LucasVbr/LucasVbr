@@ -3,7 +3,7 @@
 {%- endmacro %}
 
 {% macro imageWithLink(image) -%}
-    [![{{ image.alt }}]({{ image.src }})](image.href)
+    [![{{ image.alt }}]({{ image.src }})]({{ image.href }})
 {%- endmacro %}
 
 {% macro imageWithSize(image) -%}
