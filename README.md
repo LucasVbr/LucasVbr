@@ -23,7 +23,6 @@ I'm Lucàs, a passionate developer from <img src="https://camo.githubusercontent
 ![SQLite](https://img.shields.io/static/v1?label=&message=SQLite&color=%23003B57&logo=sqlite&logoColor=white)
 ![Visual Studio Code](https://img.shields.io/static/v1?label=&message=Visual+Studio+Code&color=%23007ACC&logo=visualstudiocode&logoColor=white)
 ![CSS3](https://img.shields.io/static/v1?label=&message=CSS3&color=%231572B6&logo=css3&logoColor=white)
-![Cplusplus](https://img.shields.io/static/v1?label=&message=C%2B%2B&color=%2300599C&logo=cplusplus&logoColor=white)
 ![MySQL](https://img.shields.io/static/v1?label=&message=MySQL&color=%234479A1&logo=mysql&logoColor=white)
 ![Windows](https://img.shields.io/static/v1?label=&message=Windows&color=%230078D6&logo=windows&logoColor=white)
 ![Python](https://img.shields.io/static/v1?label=&message=Python&color=%233776AB&logo=python&logoColor=white)
@@ -45,7 +44,7 @@ I'm Lucàs, a passionate developer from <img src="https://camo.githubusercontent
 <div align="center">
 
 This README is generated every day.<br>
-Last refresh: **Sunday 05 June 22, 12:34**<br>
+Last refresh: **Sunday 05 June 22, 10:41**<br>
 ![Profile Views](https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat)
 ![FreeCodeCamp Points](https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points)
 ![Made with love](https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red)
