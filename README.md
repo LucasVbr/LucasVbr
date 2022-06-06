@@ -3,7 +3,7 @@
 # Hello there ! <img src="./img/Hi.gif" alt="Wave hand" width="50" height="50"/>
 
 I'm Lucàs, a passionate developer from <img src="https://camo.githubusercontent.com/810c0059ec880d3bf22c12f8ecd24d39ae1c9ee5d294cd397e6f414738d9cdd8/68747470733a2f2f63646e2d69636f6e732d706e672e666c617469636f6e2e636f6d2f3531322f3139372f3139373536302e706e67" alt="France Image Icon" width="12" height="12"/> Rodez, France.
-<br>Currently, the weather is: **21.9°C**, **Sunny**
+<br>Currently, the weather is: **23.9°C**, **Sunny**
 
 ### I code with
 ![Symfony](https://img.shields.io/static/v1?label=&message=Symfony&color=%23000000&logo=symfony&logoColor=white)
@@ -18,7 +18,6 @@ I'm Lucàs, a passionate developer from <img src="https://camo.githubusercontent
 ![Jinja](https://img.shields.io/static/v1?label=&message=Jinja&color=%23B41717&logo=jinja&logoColor=white)
 ![Markdown](https://img.shields.io/static/v1?label=&message=Markdown&color=%23000000&logo=markdown&logoColor=white)
 ![PhpStorm](https://img.shields.io/static/v1?label=&message=PhpStorm&color=%23000000&logo=phpstorm&logoColor=white)
-![Git](https://img.shields.io/static/v1?label=&message=Git&color=%23F05032&logo=git&logoColor=white)
 ![Git](https://img.shields.io/static/v1?label=&message=Git&color=%23F05032&logo=git&logoColor=white)
 ![Pug](https://img.shields.io/static/v1?label=&message=Pug&color=%23A86454&logo=pug&logoColor=white)
 ![HTML5](https://img.shields.io/static/v1?label=&message=HTML5&color=%23E34F26&logo=html5&logoColor=white)
@@ -58,7 +57,7 @@ I'm Lucàs, a passionate developer from <img src="https://camo.githubusercontent
 <div align="center">
 
 This README is generated every 3 hours.<br>
-Last refresh: **Monday 06 June 22, 13:00** (Europe/Paris)<br>
+Last refresh: **Monday 06 June 22, 13:49** (Europe/Paris)<br>
 ![Profile Views](https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat)
 ![FreeCodeCamp Points](https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points)
 ![Made with love](https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red)
