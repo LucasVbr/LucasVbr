@@ -5,6 +5,7 @@ from flask import Flask, render_template
 from src.Badge import Badge, getBadgeColor
 from meteofrance_api import MeteoFranceClient
 from src.FileUtils import setFileData, getJsonData
+from src.meteoEmoji import EMOJIS
 
 """
 05/06/2022
@@ -38,7 +39,8 @@ def getWeather(city: str) -> dict:
 
     return {
         "temperature": weather.get('T').get('value'),
-        "description": weather.get("weather").get("desc")
+        "description": weather.get("weather").get("desc"),
+        "icon": EMOJIS.get(weather.get("weather").get("icon"))
     }
 
 
