@@ -2,3 +2,4 @@ flask~=2.1.2
 colour~=0.1.5
 simpleicons~=6.23.0
 meteofrance-api~=1.0.2
+pytz~=2021.3

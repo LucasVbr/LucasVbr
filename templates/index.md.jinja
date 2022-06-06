@@ -19,7 +19,7 @@ I'm {{ data.info.name }}, a passionate developer from {{ imageWithSize(data.info
 <div align="center">
 
 This README is generated every 3 hours.<br>
-Last refresh: **{{ data.today }}**<br>
+Last refresh: **{{ data.today }}** ({{ data.info.timezone }})<br>
 {% for img in data.footer_badges -%}
     {{ image(img) }}
 {% endfor %}

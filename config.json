@@ -2,6 +2,7 @@
   "info": {
     "name": "Lucàs",
     "city": "Rodez",
+    "timezone": "Europe/Paris",
     "hi_img": {
       "src": "./img/Hi.gif",
       "alt": "Wave hand",
