@@ -3,7 +3,7 @@
 # Hello there ! <img src="./img/Hi.gif" alt="Wave hand" width="50" height="50"/>
 
 I'm Lucàs, a passionate developer from <img src="https://camo.githubusercontent.com/810c0059ec880d3bf22c12f8ecd24d39ae1c9ee5d294cd397e6f414738d9cdd8/68747470733a2f2f63646e2d69636f6e732d706e672e666c617469636f6e2e636f6d2f3531322f3139372f3139373536302e706e67" alt="France Image Icon" width="12" height="12"/> **Rodez, France**.
-<br>Currently, the weather is: **22°C** :thermometer:, **Clear night** 
+<br>Currently, the weather is: **22.9°C** :thermometer:, **Sunny** 
 
 ### I code with
 ![Symfony](https://img.shields.io/static/v1?label=&message=Symfony&color=%23000000&logo=symfony&logoColor=white)
@@ -57,7 +57,7 @@ I'm Lucàs, a passionate developer from <img src="https://camo.githubusercontent
 <div align="center">
 
 This **README** is generated **every 3 hours**.<br>
-Last refresh: **Sunday 19 June 22, 05:51** (Europe/Paris)<br>
+Last refresh: **Sunday 19 June 22, 08:08** (Europe/Paris)<br>
 ![Profile Views](https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat)
 ![FreeCodeCamp Points](https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points)
 ![Made with love](https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red)
