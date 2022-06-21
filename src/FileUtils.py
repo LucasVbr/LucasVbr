@@ -24,6 +24,10 @@ def getJsonData(filePath: str) -> str:
     return data
 
 
+def setJsonData(filePath: str, content) -> None:
+    setFileData(filePath, json.dumps(content, indent=2))
+
+
 def setFileData(filePath: str, content: str) -> None:
     """
     Create a new File or replace it content if already exist

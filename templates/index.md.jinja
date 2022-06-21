@@ -3,7 +3,7 @@
 # Hello there ! {{ imageWithSize(data.info.hi_img) }}
 
 I'm {{ data.info.name }}, a passionate developer from {{ imageWithSize(data.info.france_img) }} **{{ data.info.city }}, France**.
-<br>Currently, the weather is: **{{ data.weather.temperature }}°C** :thermometer:, **{{ data.weather.description }}** {% if data.weather.icon == "None" %}{{ data.weather.icon }}{% endif %}
+<br>Currently, the weather is: **{{ data.weather.temperature }}°C** :thermometer:, **{{ data.weather.description }}** {% if data.weather.icon != "None" %}{{ data.weather.icon }}{% endif %}
 
 ### I code with
 {% for img in data.tools -%}

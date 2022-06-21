@@ -30,17 +30,22 @@ class Badge:
 
         icon = icons.get(self.name)
 
+        color_hue = Color(f'#{icon.hex}').get_hue()
+        color_hsl = (color_hue, 0.75, 0.5)
+        color = Color()
+        color.set_hsl(color_hsl)
+
         try:
             params = {
                 "label": "",
                 "message": icon.title,
-                "color": f"#{icon.hex}",
+                "color": color,
                 "logo": icon.slug,
                 "logoColor": LOGO_COLOR
             }
             urlParams = urlencode(params)
             self.url = f"{BASE_URL}?{urlParams}"
-            self.color = Color(params["color"]).get_hue()
+            self.color = color_hue
         except Exception:
             pass  # Let default values
 

@@ -1,10 +1,10 @@
 # coding: utf-8
 
 __author__ = "LucasVbr"
-__version__ = "3.0.0"
+__version__ = "3.0.3"
 
 from Utils import *
-from src.FileUtils import getJsonData
+from src.FileUtils import getJsonData, setJsonData
 from datetime import datetime
 import pytz
 
@@ -14,8 +14,12 @@ if __name__ == "__main__":
     configData = getJsonData(CONFIG_FILE)
 
     data = getDataSubfiles(configData.get("data_files"))
+
+    toolList = data.get("tools")
+    toolList = list(dict.fromkeys(toolList))  # Remove duplicates
+
     data["info"] = configData.get("info")
-    data["tools"] = convertToolBadges(data.get("tools"))
+    data["tools"] = convertToolBadges(toolList)
     data["weather"] = getWeather(data.get("info").get('city'))
     data['today'] = datetime \
         .today() \
@@ -27,3 +31,7 @@ if __name__ == "__main__":
         configData.get("output_file"),
         data
     )
+
+    # Rewrite Tools (in order)
+    toolList.sort()
+    setJsonData("data/tools.json", toolList)
