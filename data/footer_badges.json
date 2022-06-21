@@ -8,6 +8,10 @@
     "src": "https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points"
   },
   {
+    "alt": "README Build",
+    "src": "https://github.com/LucasVbr/LucasVbr/actions/workflows/main.yml/badge.svg?branch=main"
+  },
+  {
     "alt": "Made with love",
     "src": "https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red"
   }
