@@ -57,7 +57,7 @@ I'm Lucàs, a passionate developer from <img src="https://camo.githubusercontent
 <div align="center">
 
 This **README** is generated **every 3 hours**.<br>
-Last refresh: **Tuesday 21 June 22, 13:17** (Europe/Paris)<br>
+Last refresh: **Tuesday 21 June 22, 13:18** (Europe/Paris)<br>
 ![Profile Views](https://komarev.com/ghpvc/?username=lucasvbr&amp;label=Profile%20views&amp;color=0e75b6&amp;style=flat)
 ![FreeCodeCamp Points](https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points)
 ![Made with love](https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red)
