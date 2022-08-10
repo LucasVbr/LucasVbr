@@ -1,0 +1,25 @@
+{% from "model/macro.njk" import a, img with context %}
+
+# Hi, I'm {{ name }}! 👋
+
+## 🚀 About Me
+{{ about }}
+
+## 🔗 Links
+{% for link in links -%}
+    {{ a(link.href, img(link.img.src, link.img.alt)) }}
+{% endfor %}
+
+## 🛠 Skills
+{% for skill in skills -%}
+    {{ img(skill.src, skill.alt) }}
+{% endfor %}
+
+---
+
+<center>
+
+{% for badge in badges -%}
+    {{ img(badge.src, badge.alt) }}
+{% endfor %}
+</center>
