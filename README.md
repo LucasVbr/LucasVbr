@@ -35,10 +35,10 @@ I&#39;m a passionate developer from 🇫🇷 **Albi, France**.
 
 ---
 
-<center>
+<div align="center">
 
 ![Profile views](https://komarev.com/ghpvc/?username=lucasvbr&amp;amp;label=Profile%20views&amp;amp;color=0e75b6&amp;amp;style=flat)
 ![FreeCodeCamp Points](https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points)
 ![Made with love](https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red)
 
-</center>
+</div>
