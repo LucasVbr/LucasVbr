@@ -9,6 +9,7 @@ I&#39;m a passionate developer from 🇫🇷 **Albi, France**.
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&amp;logo=ko-fi&amp;logoColor=white)](https://lucasvbr.github.io/Portfolio)
 [![linkedin](https://img.shields.io/badge/linkedin-0e76a8?style=for-the-badge&amp;logo=linkedin&amp;logoColor=white)](https://www.linkedin.com/in/lucasvbr)
 [![freecodecamp](https://img.shields.io/badge/freecodecamp-0a0a23?style=for-the-badge&amp;logo=freecodecamp&amp;logoColor=white)](https://www.freecodecamp.org/LucasVbr)
+[![openclassrooms](https://img.shields.io/badge/openclassrooms-7451eb?style=for-the-badge&amp;logoColor=white)](https://openclassrooms.com/fr/members/97j9zltv6225)
 
 
 ## 🛠 Skills
