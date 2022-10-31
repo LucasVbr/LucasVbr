@@ -26,8 +26,15 @@
     {
       "href": "https://openclassrooms.com/fr/members/97j9zltv6225",
       "img": {
-        "src": "https://img.shields.io/badge/openclassrooms-7451eb?style=for-the-badge&logoColor=white",
+        "src": "https://img.shields.io/badge/openclassrooms-7451eb?style=for-the-badge&logo=openclassrooms&logoColor=white",
         "alt": "openclassrooms"
+      }
+    },
+    {
+      "href": "https://exercism.org/profiles/LucasVbr",
+      "img": {
+        "src": "https://img.shields.io/badge/exercism-2e57e8?style=for-the-badge&logo=exercism&logoColor=white",
+        "alt": "exercism"
       }
     }
 
