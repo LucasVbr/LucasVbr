@@ -1,5 +1,0 @@
-{
-  "template": "model/template.njk",
-  "data": "model/data.json",
-  "output": "README.md"
-}

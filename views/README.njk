@@ -1,0 +1,24 @@
+# Hi, I'm Lucàs! 👋
+
+## 🚀 About Me
+I'm a passionate developer from 🇫🇷 **Albi, France**.
+
+## 🔗 Links
+{% for link in links -%}
+  [![{{link.title}}]({{link.shield}})]({{link.url}})
+{% endfor %}
+
+## 🛠 Skills
+{% for skill in skills -%}
+  ![{{skill.title}}]({{skill.shield}})
+{% endfor %}
+
+---
+
+<div align="center">
+
+{% for badge in footerBadges -%}
+  ![{{badge.title}}]({{badge.shield}})
+{% endfor %}
+
+</div>
