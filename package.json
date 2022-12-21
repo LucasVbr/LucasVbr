@@ -1,0 +1,29 @@
+{
+  "name": "lucasvbr",
+  "version": "1.0.0",
+  "description": "LucasVbr Github Profile",
+  "main": "index.js",
+  "scripts": {
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LucasVbr/LucasVbr.git"
+  },
+  "author": "LucasVbr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LucasVbr/LucasVbr/issues"
+  },
+  "homepage": "https://github.com/LucasVbr/LucasVbr#readme",
+  "dependencies": {
+    "nunjucks": "^3.2.3",
+    "simple-icons": "^8.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.17",
+    "@types/nunjucks": "^3.2.1",
+    "@types/simple-icons": "^5.21.1",
+    "typescript": "^4.9.4"
+  }
+}
