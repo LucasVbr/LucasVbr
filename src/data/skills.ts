@@ -29,6 +29,8 @@ const LIST_OF_ICONS: SimpleIcon[] = [
   icons.siMongodb,
   icons.siReact,
   icons.siDocker,
+  icons.siPug,
+  icons.siNunjucks,
 ];
 
 export default function getSkills(): Skill[] {

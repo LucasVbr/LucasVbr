@@ -26,7 +26,6 @@ export default class Skill {
       const [key, value] = param;
       shieldUrl.searchParams.append(key, value);
     });
-
     return shieldUrl.toString();
   }
 
