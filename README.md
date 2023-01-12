@@ -1,4 +1,4 @@
-# Hi, I'm Lucàs! 👋
+![SVG Banners](https://svg-banners.vercel.app/api?type=glitch&text1=Hi%20I'm%20Lucàs👋&width=800&height=400)
 
 ## 🚀 About Me
 I'm a passionate developer from 🇫🇷 **Albi, France**.
