@@ -51,4 +51,6 @@ I'm a passionate developer from 🇫🇷 **Albi, France**.
 ![Made with love](https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red)
 
 
+![SVG Stats](https://github-stats-alpha.vercel.app/api?username=LucasVbr&cc=000&tc=fff&ic=fff&bc=000)
+
 </div>
