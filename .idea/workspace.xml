@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b25cc8d3-396f-4036-b751-5d061242b2fc" name="Changes" comment="Add ts-node and some skills">
+      <change afterPath="$PROJECT_DIR$/components/ImageComponent.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/LinkComponent.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/BadgeModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/BannerModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ConfigModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/LinkModel.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Banner.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Context.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Link.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Skill.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/url_builder/BadgeUrlBuilder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/url_builder/BannerUrlBuilder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/url_builder/UrlBuilder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/template.njk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/FooterBadge.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Link.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Log.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Skill.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/footerBadges.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/links.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/data/skills.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/README.njk" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="26120" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2D5NGsoG3YaWSwKstpEFyHAQuqo" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "dev",
+    "javascript.nodejs.core.library.configured.version": "19.6.0",
+    "javascript.nodejs.core.library.typings.version": "18.16.3",
+    "last_directory_selection": "/Users/lucas/Documents/GitHub/LucasVbr/model",
+    "last_opened_file_path": "/Users/lucas/Documents/GitHub/LucasVbr/models",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "/Users/lucas/Library/Application Support/JetBrains/Toolbox/apps/WebStorm/ch-0/231.8770.64/WebStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/models" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/components" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/url" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/views" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.start">
+    <configuration name="Run Compilation" type="ShConfigurationType">
+      <option name="SCRIPT_TEXT" value="" />
+      <option name="INDEPENDENT_SCRIPT_PATH" value="true" />
+      <option name="SCRIPT_PATH" value="$PROJECT_DIR$/temp/compile.sh" />
+      <option name="SCRIPT_OPTIONS" value="" />
+      <option name="INDEPENDENT_SCRIPT_WORKING_DIRECTORY" value="true" />
+      <option name="SCRIPT_WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="INDEPENDENT_INTERPRETER_PATH" value="true" />
+      <option name="INTERPRETER_PATH" value="/bin/zsh" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="EXECUTE_IN_TERMINAL" value="true" />
+      <option name="EXECUTE_SCRIPT_FILE" value="true" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b25cc8d3-396f-4036-b751-5d061242b2fc" name="Changes" comment="" />
+      <created>1659984892827</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1659984892827</updated>
+      <workItem from="1659984894171" duration="261000" />
+      <workItem from="1659985596930" duration="100000" />
+      <workItem from="1659985743639" duration="4987000" />
+      <workItem from="1660046704138" duration="11000" />
+      <workItem from="1660055839996" duration="3500000" />
+      <workItem from="1660157016877" duration="8032000" />
+      <workItem from="1660657893814" duration="1890000" />
+      <workItem from="1667236638691" duration="677000" />
+      <workItem from="1671566677749" duration="55000" />
+      <workItem from="1671566739098" duration="118000" />
+      <workItem from="1671566863673" duration="788000" />
+      <workItem from="1671567668770" duration="6242000" />
+      <workItem from="1671618913806" duration="12806000" />
+      <workItem from="1671633249894" duration="307000" />
+      <workItem from="1672338960868" duration="1000" />
+      <workItem from="1672346041833" duration="3016000" />
+      <workItem from="1673549750127" duration="1582000" />
+      <workItem from="1673603557469" duration="10000" />
+      <workItem from="1682800101629" duration="27322000" />
+      <workItem from="1683016877648" duration="634000" />
+    </task>
+    <task id="LOCAL-00001" summary="Add OpenClassRooms link">
+      <created>1660658552230</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1660658552230</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Add Exercism link">
+      <created>1667236825428</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667236825428</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Switch to Node.JS stack">
+      <created>1671633149559</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671633149559</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add package.json and typescript configuration files">
+      <created>1671633329692</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671633329692</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add ts-node and some skills">
+      <created>1672348440794</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1672348440794</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add ts-node and some skills">
+      <created>1672348457528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1672348457528</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add OpenClassRooms link" />
+    <MESSAGE value="Add Exercism link" />
+    <MESSAGE value="Switch to Node.JS stack" />
+    <MESSAGE value="Add package.json and typescript configuration files" />
+    <MESSAGE value="Add ts-node and some skills" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add ts-node and some skills" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

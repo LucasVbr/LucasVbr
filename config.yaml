@@ -1,0 +1,128 @@
+file:
+  template: "template.njk"
+  output: "README.md"
+
+view:
+  userName: "LucasVbr"
+
+  banner:
+    type: "glitch"
+    text1: "Hi I'm Lucàs👋"
+    width: 1000
+    height: 400
+
+  about: "I'm a passionate developer from 🇫🇷 **Albi, France**."
+
+  links:
+    - label:
+        message: "My Portfolio"
+        logo: "ko-fi"
+      url: "https://lucasvbr.github.io/links/?portfolio"
+
+    - label:
+        message: "Linkedin"
+        color: "0e76a8"
+      url: "https://www.linkedin.com/in/lucasvbr"
+
+    - label:
+        message: "FreeCodeCamp"
+        color: "0a0a23"
+      url: "https://www.freecodecamp.org/LucasVbr"
+
+    - label:
+        message: "OpenClassRooms"
+        color: "7451eb"
+      url: "https://openclassrooms.com/fr/members/97j9zltv6225"
+
+    - label:
+        message: "Exercism"
+        color: "2e57e8"
+      url: "https://exercism.org/profiles/LucasVbr"
+
+  skills:
+    - message: "Android"
+      color: "3DDC84"
+
+    - message: "Angular"
+      color: "DD0031"
+
+    - message: "Bootstrap"
+      color: "7952B3"
+
+    - message: "Bulma"
+      color: "00D1B2"
+
+    - message: "C"
+      color: "A8B9CC"
+
+    - message: "CSS3"
+      color: "1572B6"
+
+    - message: "Deno"
+
+    - message: "Docker"
+      color: "2496ED"
+
+    - message: "Express"
+
+    - message: "Figma"
+      color: "F24E1E"
+
+    - message: "Git"
+      color: "F05032"
+
+    - message: "GNU Bash"
+      color: "4EAA25"
+
+    - message: "HTML5"
+      color: "E34F26"
+
+    - message: "JavaScript"
+      color: "F7DF1E"
+
+    - message: "MariaDB"
+      color: "003545"
+
+    - message: "MongoDB"
+      color: "47A248"
+
+    - message: "MySQL"
+      color: "4479A1"
+
+    - message: "Node.js"
+      color: "339933"
+      logo: "nodedotjs"
+
+    - message: "Nunjucks"
+      color: "1C4913"
+
+    - message: "OCaml"
+      color: "EC6813"
+
+    - message: "PHP"
+      color: "777BB4"
+
+    - message: "PostgreSQL"
+      color: "4169E1"
+
+    - message: "Pug"
+      color: "A86454"
+
+    - message: "Python"
+      color: "3776AB"
+
+    - message: "React"
+      color: "61DAFB"
+
+    - message: "SQLite"
+      color: "003B57"
+
+    - message: "Symfony"
+
+    - message: "TypeScript"
+      color: "3178C6"
+
+  footer:
+    - "![Profile Views](https://komarev.com/ghpvc/?username=lucasvbr&amp;amp;label=Profile%20views&amp;amp;color=0e75b6&amp;amp;style=flat)"
+    - "![FreeCodeCamp Points](https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points)"
+    - "![Made with love](https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red)"
