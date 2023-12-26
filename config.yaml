@@ -1,128 +1,107 @@
-file:
-  template: "template.njk"
-  output: "README.md"
+user: "LucasVbr"
 
-view:
-  userName: "LucasVbr"
+socials:
+#  - name: "My Portfolio"
+#    url: "https://lucasvbr.github.io/portfolio"
+#    img: "https://img.shields.io/static/v1?style=for-the-badge&amp;label=+&amp;logoColor=white&amp;message=My+Portfolio&amp;logo=ko-fi&amp;color=000"
 
-  banner:
-    type: "glitch"
-    text1: "Hi I'm Lucàs👋"
-    width: 1000
-    height: 400
+  - name: "Linkedin"
+    url: "https://www.linkedin.com/in/lucasvbr"
+    img: "https://img.shields.io/static/v1?style=for-the-badge&amp;label=+&amp;logoColor=white&amp;message=Linkedin&amp;color=0e76a8&amp;logo=linkedin"
 
-  about: "I'm a passionate developer from 🇫🇷 **Albi, France**."
+  - name: "FreeCodeCamp"
+    url: "https://www.freecodecamp.org/LucasVbr"
+    img: "https://img.shields.io/static/v1?style=for-the-badge&amp;label=+&amp;logoColor=white&amp;message=FreeCodeCamp&amp;color=0a0a23&amp;logo=freecodecamp"
 
-  links:
-    - label:
-        message: "My Portfolio"
-        logo: "ko-fi"
-      url: "https://lucasvbr.github.io/links/?portfolio"
+  - name: "OpenClassRooms"
+    url: "https://openclassrooms.com/fr/members/97j9zltv6225"
+    img: "https://img.shields.io/static/v1?style=for-the-badge&amp;label=+&amp;logoColor=white&amp;message=OpenClassRooms&amp;color=7451eb&amp;logo=openclassrooms"
 
-    - label:
-        message: "Linkedin"
-        color: "0e76a8"
-      url: "https://www.linkedin.com/in/lucasvbr"
+  - name: "Exercism"
+    url: "https://exercism.org/profiles/LucasVbr"
+    img: "https://img.shields.io/static/v1?style=for-the-badge&amp;label=+&amp;logoColor=white&amp;message=Exercism&amp;color=2e57e8&amp;logo=exercism"
 
-    - label:
-        message: "FreeCodeCamp"
-        color: "0a0a23"
-      url: "https://www.freecodecamp.org/LucasVbr"
+skills:
+  - name: "Android"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Android&amp;color=3DDC84&amp;logo=android"
 
-    - label:
-        message: "OpenClassRooms"
-        color: "7451eb"
-      url: "https://openclassrooms.com/fr/members/97j9zltv6225"
+  - name: "Angular"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Angular&amp;color=DD0031&amp;logo=angular"
 
-    - label:
-        message: "Exercism"
-        color: "2e57e8"
-      url: "https://exercism.org/profiles/LucasVbr"
+  - name: "Bootstrap"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Bootstrap&amp;color=7952B3&amp;logo=bootstrap"
 
-  skills:
-    - message: "Android"
-      color: "3DDC84"
+  - name: "Bulma"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Bulma&amp;color=00D1B2&amp;logo=bulma"
 
-    - message: "Angular"
-      color: "DD0031"
+  - name: "C"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=C&amp;color=A8B9CC&amp;logo=c"
 
-    - message: "Bootstrap"
-      color: "7952B3"
+  - name: "CSS3"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=CSS3&amp;color=1572B6&amp;logo=css3"
 
-    - message: "Bulma"
-      color: "00D1B2"
+  - name: "Deno"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Deno&amp;color=black&amp;logo=deno"
 
-    - message: "C"
-      color: "A8B9CC"
+  - name: "Docker"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Docker&amp;color=2496ED&amp;logo=docker"
 
-    - message: "CSS3"
-      color: "1572B6"
+  - name: "Express"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Express&amp;color=black&amp;logo=express"
 
-    - message: "Deno"
+  - name: "Figma"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Figma&amp;color=F24E1E&amp;logo=figma"
 
-    - message: "Docker"
-      color: "2496ED"
+  - name: "Git"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Git&amp;color=F05032&amp;logo=git"
 
-    - message: "Express"
+  - name: "GNU Bash"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=GNU%20Bash&amp;color=4EAA25&amp;logo=gnu-bash"
 
-    - message: "Figma"
-      color: "F24E1E"
+  - name: "HTML5"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=HTML5&amp;color=E34F26&amp;logo=html5"
 
-    - message: "Git"
-      color: "F05032"
+  - name: "JavaScript"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=JavaScript&amp;color=F7DF1E&amp;logo=javascript"
 
-    - message: "GNU Bash"
-      color: "4EAA25"
+  - name: "MariaDB"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=MariaDB&amp;color=003545&amp;logo=mariadb"
 
-    - message: "HTML5"
-      color: "E34F26"
+  - name: "MongoDB"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=MongoDB&amp;color=47A248&amp;logo=mongodb"
 
-    - message: "JavaScript"
-      color: "F7DF1E"
+  - name: "MySQL"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=MySQL&amp;color=4479A1&amp;logo=mysql"
 
-    - message: "MariaDB"
-      color: "003545"
+  - name: "Node.js"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Node.js&amp;color=339933&amp;logo=node.js"
 
-    - message: "MongoDB"
-      color: "47A248"
+  - name: "Nunjucks"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Nunjucks&amp;color=1C4913&amp;logo=nunjucks"
 
-    - message: "MySQL"
-      color: "4479A1"
+  - name: "OCaml"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=OCaml&amp;color=EC6813&amp;logo=ocaml"
 
-    - message: "Node.js"
-      color: "339933"
-      logo: "nodedotjs"
+  - name: "PHP"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=PHP&amp;color=777BB4&amp;logo=php"
 
-    - message: "Nunjucks"
-      color: "1C4913"
+  - name: "PostgreSQL"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=PostgreSQL&amp;color=4169E1&amp;logo=postgresql"
 
-    - message: "OCaml"
-      color: "EC6813"
+  - name: "Pug"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Pug&amp;color=A86454&amp;logo=pug"
 
-    - message: "PHP"
-      color: "777BB4"
+  - name: "Python"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Python&amp;color=3776AB&amp;logo=python"
 
-    - message: "PostgreSQL"
-      color: "4169E1"
+  - name: "React"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=React&amp;color=61DAFB&amp;logo=react"
 
-    - message: "Pug"
-      color: "A86454"
+  - name: "SQLite"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=SQLite&amp;color=003B57&amp;logo=sqlite"
 
-    - message: "Python"
-      color: "3776AB"
+  - name: "Symfony"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Symfony&amp;color=black&amp;logo=symfony"
 
-    - message: "React"
-      color: "61DAFB"
-
-    - message: "SQLite"
-      color: "003B57"
-
-    - message: "Symfony"
-
-    - message: "TypeScript"
-      color: "3178C6"
-
-  footer:
-    - "![Profile Views](https://komarev.com/ghpvc/?username=lucasvbr&amp;amp;label=Profile%20views&amp;amp;color=0e75b6&amp;amp;style=flat)"
-    - "![FreeCodeCamp Points](https://img.shields.io/freecodecamp/points/lucasvbr?label=FreeCodeCamp%20points)"
-    - "![Made with love](https://img.shields.io/badge/-made%20with%20%E2%9D%A4%EF%B8%8F-red)"
+  - name: "TypeScript"
+    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=TypeScript&amp;color=3178C6&amp;logo=typescript"
