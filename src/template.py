@@ -1,4 +1,10 @@
-def load_template(template_file_path: str):
-    with open(template_file_path, 'r') as template_file:
-        template_content = template_file.read()
-    return template_content
+class Template:
+
+    def __init__(self, template_path: str):
+        self.template_path = template_path
+
+    def render(self, **kwargs) -> str:
+        with open(self.template_path, 'r') as f:
+            template = f.read()
+
+        return template.format(**kwargs)

@@ -1,10 +1,18 @@
+from src.shield.shield_builder import ShieldBuilder
+
+
 class Skill:
-    def __init__(self, name: str, url: str):
-        self.name = name
-        self.url = url
+    alt: str
+    src: str
 
-    def __str__(self):
-        return f"![{self.name}]({self.url})"
+    def __init__(self, name: str):
+        self.alt = name
+        self.src = (
+            ShieldBuilder()
+            .set_message(name)
+            .set_logo(name)
+            .build()
+        )
 
-    def __repr__(self):
-        return f"![{self.name}]({self.url})"
+    def __str__(self) -> str:
+        return f"![{self.alt}]({self.src})"

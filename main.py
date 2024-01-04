@@ -1,19 +1,17 @@
-from src.config import load_data
-from src.template import load_template
+from src.config import Config
+from src.template import Template
 
 CONFIG_FILE = 'config.yaml'
 TEMPLATE_FILE = 'template.md'
 OUTPUT_FILE = 'README.md'
 
 if __name__ == '__main__':
-    data = load_data(CONFIG_FILE)
-    template = load_template(TEMPLATE_FILE)
-
-    # Add data to template
-    result = template.format(**data)
+    template = Template(TEMPLATE_FILE)
+    data = Config(CONFIG_FILE).get_data()
 
     # Generate README file
-    with open(OUTPUT_FILE, 'w') as readme_file:
-        readme_file.write(result)
+    render = template.render(**data)
+    with open(OUTPUT_FILE, 'w') as f:
+        f.write(render)
 
     print(f"{OUTPUT_FILE} generated successfully! 🎉")

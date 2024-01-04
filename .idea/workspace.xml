@@ -4,35 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b25cc8d3-396f-4036-b751-5d061242b2fc" name="Changes" comment="Add ts-node and some skills">
-      <change afterPath="$PROJECT_DIR$/assets/banner.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/skill.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/skill_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/social.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/model/social_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/template.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template.md" afterDir="false" />
+    <list default="true" id="b25cc8d3-396f-4036-b751-5d061242b2fc" name="Changes" comment="Use only Python">
+      <change afterPath="$PROJECT_DIR$/src/shield/shield_builder.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ImageComponent.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/LinkComponent.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/banner.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/banner.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/BadgeModel.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/BannerModel.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/ConfigModel.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/LinkModel.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Banner.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Context.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Link.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skill.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/url_builder/BadgeUrlBuilder.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/url_builder/BannerUrlBuilder.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/url_builder/UrlBuilder.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/template.njk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/skill.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/skill.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/skill_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/skill_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/social.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/social.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/social_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/social_list.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/template.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template.md" beforeDir="false" afterPath="$PROJECT_DIR$/template.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +62,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Python.download_skill_badges.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.shield_builder.executor": "Run",
+    "Python.skill.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -203,7 +191,9 @@
       <workItem from="1683016877648" duration="634000" />
       <workItem from="1686672064522" duration="10000" />
       <workItem from="1691244360881" duration="1235000" />
-      <workItem from="1703610497268" duration="12128000" />
+      <workItem from="1703610497268" duration="12323000" />
+      <workItem from="1704274694444" duration="8000" />
+      <workItem from="1704364154441" duration="11806000" />
     </task>
     <task id="LOCAL-00001" summary="Add OpenClassRooms link">
       <created>1660658552230</created>
@@ -247,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1672348457528</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Use only Python">
+      <option name="closed" value="true" />
+      <created>1703624982444</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703624982444</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,13 +268,17 @@
     <MESSAGE value="Switch to Node.JS stack" />
     <MESSAGE value="Add package.json and typescript configuration files" />
     <MESSAGE value="Add ts-node and some skills" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add ts-node and some skills" />
+    <MESSAGE value="Use only Python" />
+    <option name="LAST_COMMIT_MESSAGE" value="Use only Python" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LucasVbr$main.coverage" NAME="main Coverage Results" MODIFIED="1703624206428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LucasVbr$skill.coverage" NAME="skill Coverage Results" MODIFIED="1704375618832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/model" />
+    <SUITE FILE_PATH="coverage/LucasVbr$download_skill_badges.coverage" NAME="download_skill_badges Coverage Results" MODIFIED="1704375392377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
+    <SUITE FILE_PATH="coverage/LucasVbr$shield_builder.coverage" NAME="shield_builder Coverage Results" MODIFIED="1704374403309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/shield" />
+    <SUITE FILE_PATH="coverage/LucasVbr$main.coverage" NAME="main Coverage Results" MODIFIED="1704379050479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

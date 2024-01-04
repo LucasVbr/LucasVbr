@@ -1,107 +1,44 @@
 user: "LucasVbr"
 
 socials:
-#  - name: "My Portfolio"
-#    url: "https://lucasvbr.github.io/portfolio"
-#    img: "https://img.shields.io/static/v1?style=for-the-badge&amp;label=+&amp;logoColor=white&amp;message=My+Portfolio&amp;logo=ko-fi&amp;color=000"
-
   - name: "Linkedin"
     url: "https://www.linkedin.com/in/lucasvbr"
-    img: "https://img.shields.io/static/v1?style=for-the-badge&amp;label=+&amp;logoColor=white&amp;message=Linkedin&amp;color=0e76a8&amp;logo=linkedin"
 
   - name: "FreeCodeCamp"
     url: "https://www.freecodecamp.org/LucasVbr"
-    img: "https://img.shields.io/static/v1?style=for-the-badge&amp;label=+&amp;logoColor=white&amp;message=FreeCodeCamp&amp;color=0a0a23&amp;logo=freecodecamp"
 
   - name: "OpenClassRooms"
     url: "https://openclassrooms.com/fr/members/97j9zltv6225"
-    img: "https://img.shields.io/static/v1?style=for-the-badge&amp;label=+&amp;logoColor=white&amp;message=OpenClassRooms&amp;color=7451eb&amp;logo=openclassrooms"
 
   - name: "Exercism"
     url: "https://exercism.org/profiles/LucasVbr"
-    img: "https://img.shields.io/static/v1?style=for-the-badge&amp;label=+&amp;logoColor=white&amp;message=Exercism&amp;color=2e57e8&amp;logo=exercism"
 
 skills:
-  - name: "Android"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Android&amp;color=3DDC84&amp;logo=android"
-
-  - name: "Angular"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Angular&amp;color=DD0031&amp;logo=angular"
-
-  - name: "Bootstrap"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Bootstrap&amp;color=7952B3&amp;logo=bootstrap"
-
-  - name: "Bulma"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Bulma&amp;color=00D1B2&amp;logo=bulma"
-
-  - name: "C"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=C&amp;color=A8B9CC&amp;logo=c"
-
-  - name: "CSS3"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=CSS3&amp;color=1572B6&amp;logo=css3"
-
-  - name: "Deno"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Deno&amp;color=black&amp;logo=deno"
-
-  - name: "Docker"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Docker&amp;color=2496ED&amp;logo=docker"
-
-  - name: "Express"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Express&amp;color=black&amp;logo=express"
-
-  - name: "Figma"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Figma&amp;color=F24E1E&amp;logo=figma"
-
-  - name: "Git"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Git&amp;color=F05032&amp;logo=git"
-
-  - name: "GNU Bash"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=GNU%20Bash&amp;color=4EAA25&amp;logo=gnu-bash"
-
-  - name: "HTML5"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=HTML5&amp;color=E34F26&amp;logo=html5"
-
-  - name: "JavaScript"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=JavaScript&amp;color=F7DF1E&amp;logo=javascript"
-
-  - name: "MariaDB"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=MariaDB&amp;color=003545&amp;logo=mariadb"
-
-  - name: "MongoDB"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=MongoDB&amp;color=47A248&amp;logo=mongodb"
-
-  - name: "MySQL"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=MySQL&amp;color=4479A1&amp;logo=mysql"
-
-  - name: "Node.js"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Node.js&amp;color=339933&amp;logo=node.js"
-
-  - name: "Nunjucks"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Nunjucks&amp;color=1C4913&amp;logo=nunjucks"
-
-  - name: "OCaml"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=OCaml&amp;color=EC6813&amp;logo=ocaml"
-
-  - name: "PHP"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=PHP&amp;color=777BB4&amp;logo=php"
-
-  - name: "PostgreSQL"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=PostgreSQL&amp;color=4169E1&amp;logo=postgresql"
-
-  - name: "Pug"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Pug&amp;color=A86454&amp;logo=pug"
-
-  - name: "Python"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Python&amp;color=3776AB&amp;logo=python"
-
-  - name: "React"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=React&amp;color=61DAFB&amp;logo=react"
-
-  - name: "SQLite"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=SQLite&amp;color=003B57&amp;logo=sqlite"
-
-  - name: "Symfony"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=Symfony&amp;color=black&amp;logo=symfony"
-
-  - name: "TypeScript"
-    url: "https://img.shields.io/static/v1?style=flat&amp;label=+&amp;logoColor=white&amp;message=TypeScript&amp;color=3178C6&amp;logo=typescript"
+  - "Android"
+  - "Angular"
+  - "Bootstrap"
+  - "Bulma"
+  - "C"
+  - "CSS3"
+  - "Deno"
+  - "Docker"
+  - "Express"
+  - "Figma"
+  - "Git"
+  - "GNU Bash"
+  - "HTML5"
+  - "JavaScript"
+  - "MariaDB"
+  - "MongoDB"
+  - "MySQL"
+  - "Node.js"
+  - "Nunjucks"
+  - "OCaml"
+  - "PHP"
+  - "PostgreSQL"
+  - "Pug"
+  - "Python"
+  - "React"
+  - "SQLite"
+  - "Symfony"
+  - "TypeScript"
