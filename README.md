@@ -12,10 +12,10 @@ I'm a passionate developer from 🇫🇷 **Pau, France**.
 
 ## 🔗 Social Links
 
-![Linkedin](https://img.shields.io/static/v1?message=LinkedIn&style=for-the-badge&logo=linkedin&logoColor=white&label=+&color=0A66C2&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Flucasvbr)
-![FreeCodeCamp](https://img.shields.io/static/v1?message=freeCodeCamp&style=for-the-badge&logo=freecodecamp&logoColor=white&label=+&color=0A0A23&link=https%3A%2F%2Fwww.freecodecamp.org%2FLucasVbr)
-![OpenClassRooms](https://img.shields.io/static/v1?message=OpenClassRooms&style=for-the-badge&logoColor=white&label=+&color=black&link=https%3A%2F%2Fopenclassrooms.com%2Ffr%2Fmembers%2F97j9zltv6225)
-![Exercism](https://img.shields.io/static/v1?message=Exercism&style=for-the-badge&logo=exercism&logoColor=white&label=+&color=009CAB&link=https%3A%2F%2Fexercism.org%2Fprofiles%2FLucasVbr)
+[![Linkedin](https://img.shields.io/static/v1?message=LinkedIn&style=for-the-badge&logo=linkedin&logoColor=white&label=+&color=0A66C2&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Flucasvbr)](https://www.linkedin.com/in/lucasvbr)
+[![FreeCodeCamp](https://img.shields.io/static/v1?message=freeCodeCamp&style=for-the-badge&logo=freecodecamp&logoColor=white&label=+&color=0A0A23&link=https%3A%2F%2Fwww.freecodecamp.org%2FLucasVbr)](https://www.freecodecamp.org/LucasVbr)
+[![OpenClassRooms](https://img.shields.io/static/v1?message=OpenClassRooms&style=for-the-badge&logoColor=white&label=+&color=black&link=https%3A%2F%2Fopenclassrooms.com%2Ffr%2Fmembers%2F97j9zltv6225)](https://openclassrooms.com/fr/members/97j9zltv6225)
+[![Exercism](https://img.shields.io/static/v1?message=Exercism&style=for-the-badge&logo=exercism&logoColor=white&label=+&color=009CAB&link=https%3A%2F%2Fexercism.org%2Fprofiles%2FLucasVbr)](https://exercism.org/profiles/LucasVbr)
 
 ## 🛠 Skills
 
