@@ -1,4 +1,4 @@
-from src.shield.shield_builder import ShieldBuilder
+from src.shield.social_shield import SocialShield
 
 
 class Social:
@@ -7,14 +7,7 @@ class Social:
 
     def __init__(self, name: str, url: str):
         self.name = name
-        self.img = (
-            ShieldBuilder()
-            .set_message(name)
-            .set_logo(name)
-            .set_link(url)
-            .set_style("for-the-badge")
-            .build()
-        )
+        self.img = SocialShield(name, url).__str__()
 
     def __str__(self) -> str:
         return f"![{self.name}]({self.img})"

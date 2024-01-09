@@ -4,20 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b25cc8d3-396f-4036-b751-5d061242b2fc" name="Changes" comment="Use only Python">
-      <change afterPath="$PROJECT_DIR$/src/shield/shield_builder.py" afterDir="false" />
+    <list default="true" id="b25cc8d3-396f-4036-b751-5d061242b2fc" name="Changes" comment="Add Builder for shields">
+      <change afterPath="$PROJECT_DIR$/src/shield/skill_shield.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shield/social_shield.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/banner.svg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/banner.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/config.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements" beforeDir="false" afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/skill.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/skill.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/skill_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/skill_list.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/social.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/social.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/social_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/social_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/template.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template.md" beforeDir="false" afterPath="$PROJECT_DIR$/template.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shield/shield_builder.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/shield/shield_builder.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +61,8 @@
     "Python.main.executor": "Run",
     "Python.shield_builder.executor": "Run",
     "Python.skill.executor": "Run",
+    "Python.skill_shield.executor": "Run",
+    "Python.skill_shield_builder.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
@@ -73,7 +70,7 @@
     "javascript.nodejs.core.library.configured.version": "20.6.1",
     "javascript.nodejs.core.library.typings.version": "20.6.5",
     "last_directory_selection": "/Users/lucas/Documents/GitHub/LucasVbr/model",
-    "last_opened_file_path": "/Users/lucas/Documents/GitHub/LucasVbr/models",
+    "last_opened_file_path": "/Users/lucas/Documents/GitHub/LucasVbr/src/shield",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -86,6 +83,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/shield" />
       <recent name="$PROJECT_DIR$/models" />
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/components" />
@@ -193,7 +191,8 @@
       <workItem from="1691244360881" duration="1235000" />
       <workItem from="1703610497268" duration="12323000" />
       <workItem from="1704274694444" duration="8000" />
-      <workItem from="1704364154441" duration="11806000" />
+      <workItem from="1704364154441" duration="13259000" />
+      <workItem from="1704806823609" duration="2836000" />
     </task>
     <task id="LOCAL-00001" summary="Add OpenClassRooms link">
       <created>1660658552230</created>
@@ -245,7 +244,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703624982444</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add Builder for shields">
+      <option name="closed" value="true" />
+      <created>1704379399992</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1704379399992</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,16 +276,19 @@
     <MESSAGE value="Add package.json and typescript configuration files" />
     <MESSAGE value="Add ts-node and some skills" />
     <MESSAGE value="Use only Python" />
-    <option name="LAST_COMMIT_MESSAGE" value="Use only Python" />
+    <MESSAGE value="Add Builder for shields" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Builder for shields" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/LucasVbr$skill.coverage" NAME="skill Coverage Results" MODIFIED="1704375618832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/model" />
+    <SUITE FILE_PATH="coverage/LucasVbr$skill.coverage" NAME="skill Coverage Results" MODIFIED="1704808529789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/model" />
     <SUITE FILE_PATH="coverage/LucasVbr$download_skill_badges.coverage" NAME="download_skill_badges Coverage Results" MODIFIED="1704375392377" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src" />
     <SUITE FILE_PATH="coverage/LucasVbr$shield_builder.coverage" NAME="shield_builder Coverage Results" MODIFIED="1704374403309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/shield" />
-    <SUITE FILE_PATH="coverage/LucasVbr$main.coverage" NAME="main Coverage Results" MODIFIED="1704379050479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LucasVbr$skill_shield_builder.coverage" NAME="skill_shield_builder Coverage Results" MODIFIED="1704808074648" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/shield" />
+    <SUITE FILE_PATH="coverage/LucasVbr$main.coverage" NAME="main Coverage Results" MODIFIED="1704809040131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/LucasVbr$skill_shield.coverage" NAME="skill_shield Coverage Results" MODIFIED="1704808482386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/shield" />
   </component>
 </project>

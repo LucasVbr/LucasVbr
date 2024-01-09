@@ -1,4 +1,4 @@
-from src.shield.shield_builder import ShieldBuilder
+from src.shield.skill_shield import SkillShield
 
 
 class Skill:
@@ -7,12 +7,7 @@ class Skill:
 
     def __init__(self, name: str):
         self.alt = name
-        self.src = (
-            ShieldBuilder()
-            .set_message(name)
-            .set_logo(name)
-            .build()
-        )
+        self.src = SkillShield(name).__str__()
 
     def __str__(self) -> str:
         return f"![{self.alt}]({self.src})"

@@ -1,5 +1,5 @@
 from urllib.parse import urlunsplit, urlencode
-
+from simpleicons.all import icons
 
 class ShieldBuilder:
     BASE_URL = "https://img.shields.io/static/v1"
@@ -36,7 +36,7 @@ class ShieldBuilder:
         return self
 
     def set_logo(self, logo: str):
-        self.logo = logo
+        self.logo = icons.get(logo).slug if logo in icons else None
         return self
 
     def set_logo_color(self, logo_color: str):
