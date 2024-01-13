@@ -1,7 +1,7 @@
 import yaml
-from src.model.skill_list import SkillList
+from src.model.skill_list import skill_list
 import requests
-from src.model.social_list import SocialList
+from src.model.social_list import social_list
 
 
 class Config:
@@ -22,16 +22,10 @@ class Config:
             raise Exception("User not found")
         self.config_data["user"] = response.json()
 
-    def handle_skill_section(self):
-        self.config_data["skills"] = str(SkillList(self.config_data["skills"]))
-
-    def handle_social_section(self):
-        self.config_data["socials"] = str(SocialList(self.config_data["socials"]))
-
     def get_data(self):
         self.load_config_file()
         self.handle_user_info()
-        self.handle_skill_section()
-        self.handle_social_section()
+        self.config_data["skills"] = skill_list(self.config_data["skills"])
+        self.config_data["socials"] = social_list(self.config_data["socials"])
 
         return self.config_data

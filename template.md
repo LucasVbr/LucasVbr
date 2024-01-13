@@ -1,22 +1,25 @@
-<header>
-<div align="center">
+## Hi there! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="25" height="25" />
 
-![Hi I'm Lucàs👋](assets/banner.svg)
+I'm **{user[name]}**, a passionate developer based in 🇫🇷 **{user[location]}**.<br/>
+My journey in the world of programming started 7 years ago when I fell in love with {skills[HTML5]} {skills[CSS3]} {skills[JavaScript]}.
 
-</div>
-</header>
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> What I do
 
-## 🚀 About Me
+- 💻 Currently, I'm studying at **{user[company]}** for my Master's degree in Informatics.
+- 🌐 I specialize in Web Development, and I'm always eager to explore new technologies and frameworks.
+- 🌱 I'm constantly learning and expanding my skill set to stay up-to-date with the ever-evolving tech landscape.
 
-I'm a passionate developer from 🇫🇷 **{user[location]}**.
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Europe-Africa.png" alt="Globe Showing Europe-Africa" width="25" height="25" /> Connect with me
 
-## 🔗 Social Links
+{socials[all]}
 
-{socials}
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Hammer and Wrench" width="25" height="25" /> Tech Stack
 
-## 🛠 Skills
+{skills[all]}
 
-{skills}
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="25" height="25" /> Let's collaborate
+
+👀 I'm always open to collaboration and exciting projects. If you have something in mind, feel free to reach out!
 
 ---
 

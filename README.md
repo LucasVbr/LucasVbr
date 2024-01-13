@@ -1,23 +1,22 @@
-<header>
-<div align="center">
+## Hi there! <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" alt="Waving Hand" width="25" height="25" />
 
-![Hi I'm Lucàs👋](assets/banner.svg)
+I'm **Lucàs**, a passionate developer based in 🇫🇷 **Pau, France**.<br/>
+My journey in the world of programming started 7 years ago when I fell in love with ![HTML5](https://img.shields.io/static/v1?message=HTML5&logo=html5&logoColor=white&label=+&color=E34F26) ![CSS3](https://img.shields.io/static/v1?message=CSS3&logo=css3&logoColor=white&label=+&color=1572B6) ![JavaScript](https://img.shields.io/static/v1?message=JavaScript&logo=javascript&logoColor=white&label=+&color=F7DF1E).
 
-</div>
-</header>
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Rocket.png" alt="Rocket" width="25" height="25" /> What I do
 
-## 🚀 About Me
+- 💻 Currently, I'm studying at **UPPA** for my Master's degree in Informatics.
+- 🌐 I specialize in Web Development, and I'm always eager to explore new technologies and frameworks.
+- 🌱 I'm constantly learning and expanding my skill set to stay up-to-date with the ever-evolving tech landscape.
 
-I'm a passionate developer from 🇫🇷 **Pau, France**.
-
-## 🔗 Social Links
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Europe-Africa.png" alt="Globe Showing Europe-Africa" width="25" height="25" /> Connect with me
 
 [![Linkedin](https://img.shields.io/static/v1?message=LinkedIn&style=for-the-badge&logo=linkedin&logoColor=white&label=+&color=0A66C2&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Flucasvbr)](https://www.linkedin.com/in/lucasvbr)
 [![FreeCodeCamp](https://img.shields.io/static/v1?message=freeCodeCamp&style=for-the-badge&logo=freecodecamp&logoColor=white&label=+&color=0A0A23&link=https%3A%2F%2Fwww.freecodecamp.org%2FLucasVbr)](https://www.freecodecamp.org/LucasVbr)
 [![OpenClassRooms](https://img.shields.io/static/v1?message=OpenClassRooms&style=for-the-badge&logoColor=white&label=+&color=black&link=https%3A%2F%2Fopenclassrooms.com%2Ffr%2Fmembers%2F97j9zltv6225)](https://openclassrooms.com/fr/members/97j9zltv6225)
 [![Exercism](https://img.shields.io/static/v1?message=Exercism&style=for-the-badge&logo=exercism&logoColor=white&label=+&color=009CAB&link=https%3A%2F%2Fexercism.org%2Fprofiles%2FLucasVbr)](https://exercism.org/profiles/LucasVbr)
 
-## 🛠 Skills
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" alt="Hammer and Wrench" width="25" height="25" /> Tech Stack
 
 ![Android](https://img.shields.io/static/v1?message=Android&logo=android&logoColor=white&label=+&color=3DDC84)
 ![Angular](https://img.shields.io/static/v1?message=Angular&logo=angular&logoColor=white&label=+&color=DD0031)
@@ -47,6 +46,10 @@ I'm a passionate developer from 🇫🇷 **Pau, France**.
 ![SQLite](https://img.shields.io/static/v1?message=SQLite&logo=sqlite&logoColor=white&label=+&color=003B57)
 ![Symfony](https://img.shields.io/static/v1?message=Symfony&logo=symfony&logoColor=white&label=+&color=000000)
 ![TypeScript](https://img.shields.io/static/v1?message=TypeScript&logo=typescript&logoColor=white&label=+&color=3178C6)
+
+### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Handshake.png" alt="Handshake" width="25" height="25" /> Let's collaborate
+
+👀 I'm always open to collaboration and exciting projects. If you have something in mind, feel free to reach out!
 
 ---
 

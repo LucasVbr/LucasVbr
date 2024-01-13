@@ -1,15 +1,11 @@
 from src.model.skill import Skill
 
 
-class SkillList:
-    skills: list[Skill]
+def skill_list(skills: list[str]) -> dict[str, str]:
+    # Sort and remove duplicates
+    skills = list(set(skills))
+    skills.sort()
 
-    def __init__(self, skills: list[str]):
-        # Sort and remove duplicates
-        skills = list(set(skills))
-        skills.sort()
-
-        self.skills = [Skill(skill) for skill in skills]
-
-    def __str__(self) -> str:
-        return "\n".join([str(skill) for skill in self.skills])
+    skills = {skill: Skill(skill).__str__() for skill in skills}
+    skills["all"] = "\n".join([str(skill) for skill in skills.values()])
+    return skills

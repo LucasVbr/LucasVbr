@@ -1,11 +1,8 @@
 from src.model.social import Social
 
 
-class SocialList:
-    socials: list[Social]
-
-    def __init__(self, socials: list):
-        self.socials = [Social(social.get("name"), social.get("url")) for social in socials]
-
-    def __str__(self) -> str:
-        return "\n".join([str(social) for social in self.socials])
+def social_list(socials: list) -> dict[str, str]:
+    socials: dict[str, str] = {social.get("name"): str(Social(social.get("name"), social.get("url"))) for social in
+                               socials}
+    socials["all"] = "\n".join([str(social) for social in socials.values()])
+    return socials
