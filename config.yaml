@@ -1,6 +1,9 @@
 user: "LucasVbr"
 
 socials:
+  - name: "Portfolio"
+    url: "https://www.lucasvbr.dev"
+
   - name: "Linkedin"
     url: "https://www.linkedin.com/in/lucasvbr"
 
@@ -14,31 +17,32 @@ socials:
     url: "https://exercism.org/profiles/LucasVbr"
 
 skills:
-  - "Android"
-  - "Angular"
-  - "Bootstrap"
-  - "Bulma"
-  - "C"
-  - "CSS3"
-  - "Deno"
-  - "Docker"
-  - "Express"
-  - "Figma"
-  - "Git"
-  - "GNU Bash"
-  - "HTML5"
-  - "JavaScript"
-  - "MariaDB"
-  - "MongoDB"
-  - "MySQL"
-  - "Node.js"
-  - "Nunjucks"
-  - "OCaml"
-  - "PHP"
-  - "PostgreSQL"
-  - "Pug"
-  - "Python"
-  - "React"
-  - "SQLite"
-  - "Symfony"
-  - "TypeScript"
+  - Android
+  - Angular
+  - Astro
+  - Bun
+  - Bootstrap
+  - Bulma
+  - C
+  - CSS3
+  - Deno
+  - Docker
+  - Express
+  - Figma
+  - Git
+  - GNU Bash
+  - HTML5
+  - JavaScript
+  - MariaDB
+  - MongoDB
+  - MySQL
+  - Node.js
+  - OCaml
+  - PHP
+  - PostgreSQL
+  - Pug
+  - Python
+  - React
+  - SQLite
+  - Symfony
+  - TypeScript

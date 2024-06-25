@@ -11,6 +11,7 @@ My journey in the world of programming started 7 years ago when I fell in love w
 
 ### <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Globe%20Showing%20Europe-Africa.png" alt="Globe Showing Europe-Africa" width="25" height="25" /> Connect with me
 
+[![Portfolio](https://img.shields.io/static/v1?message=Portfolio&style=for-the-badge&logoColor=white&label=+&color=black&link=https%3A%2F%2Fwww.lucasvbr.dev)](https://www.lucasvbr.dev)
 [![Linkedin](https://img.shields.io/static/v1?message=LinkedIn&style=for-the-badge&logo=linkedin&logoColor=white&label=+&color=0A66C2&link=https%3A%2F%2Fwww.linkedin.com%2Fin%2Flucasvbr)](https://www.linkedin.com/in/lucasvbr)
 [![FreeCodeCamp](https://img.shields.io/static/v1?message=freeCodeCamp&style=for-the-badge&logo=freecodecamp&logoColor=white&label=+&color=0A0A23&link=https%3A%2F%2Fwww.freecodecamp.org%2FLucasVbr)](https://www.freecodecamp.org/LucasVbr)
 [![OpenClassRooms](https://img.shields.io/static/v1?message=OpenClassRooms&style=for-the-badge&logoColor=white&label=+&color=black&link=https%3A%2F%2Fopenclassrooms.com%2Ffr%2Fmembers%2F97j9zltv6225)](https://openclassrooms.com/fr/members/97j9zltv6225)
@@ -20,8 +21,10 @@ My journey in the world of programming started 7 years ago when I fell in love w
 
 ![Android](https://img.shields.io/static/v1?message=Android&logo=android&logoColor=white&label=+&color=3DDC84)
 ![Angular](https://img.shields.io/static/v1?message=Angular&logo=angular&logoColor=white&label=+&color=DD0031)
+![Astro](https://img.shields.io/static/v1?message=Astro&logo=astro&logoColor=white&label=+&color=FF5D01)
 ![Bootstrap](https://img.shields.io/static/v1?message=Bootstrap&logo=bootstrap&logoColor=white&label=+&color=7952B3)
 ![Bulma](https://img.shields.io/static/v1?message=Bulma&logo=bulma&logoColor=white&label=+&color=00D1B2)
+![Bun](https://img.shields.io/static/v1?message=Bun&logo=bun&logoColor=white&label=+&color=000000)
 ![C](https://img.shields.io/static/v1?message=C&logo=c&logoColor=white&label=+&color=A8B9CC)
 ![CSS3](https://img.shields.io/static/v1?message=CSS3&logo=css3&logoColor=white&label=+&color=1572B6)
 ![Deno](https://img.shields.io/static/v1?message=Deno&logo=deno&logoColor=white&label=+&color=000000)
@@ -36,7 +39,6 @@ My journey in the world of programming started 7 years ago when I fell in love w
 ![MongoDB](https://img.shields.io/static/v1?message=MongoDB&logo=mongodb&logoColor=white&label=+&color=47A248)
 ![MySQL](https://img.shields.io/static/v1?message=MySQL&logo=mysql&logoColor=white&label=+&color=4479A1)
 ![Node.js](https://img.shields.io/static/v1?message=Node.js&logo=nodedotjs&logoColor=white&label=+&color=339933)
-![Nunjucks](https://img.shields.io/static/v1?message=Nunjucks&logo=nunjucks&logoColor=white&label=+&color=1C4913)
 ![OCaml](https://img.shields.io/static/v1?message=OCaml&logo=ocaml&logoColor=white&label=+&color=EC6813)
 ![PHP](https://img.shields.io/static/v1?message=PHP&logo=php&logoColor=white&label=+&color=777BB4)
 ![PostgreSQL](https://img.shields.io/static/v1?message=PostgreSQL&logo=postgresql&logoColor=white&label=+&color=4169E1)
