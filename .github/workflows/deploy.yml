@@ -46,10 +46,7 @@ jobs:
 
       - name: Commit README.md to main
         run: |
-          if git diff --quiet README.md; then
-            echo "No changes to README.md"
-          else
             git add README.md
             git commit -m "chore(readme): update after build [CI]"
             git push origin main
-          fi
+          
