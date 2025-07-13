@@ -4,67 +4,29 @@ author:
   company: UPPA
 socials:
   - name: Portfolio
-    icon: ""
+    icon: https://img.shields.io/static/v1?message=Portfolio&label=&color=000&labelColor=&style=for-the-badge
     url: https://www.lucasvbr.dev
   - name: LinkedIn
-    icon: ""
+    icon: https://img.shields.io/static/v1?message=LinkedIn&logo=linkedin&label=&color=0077B5&logoColor=white&labelColor=&style=for-the-badge
     url: https://www.linkedin.com/in/lucasvbr
 skills:
-  - name: Android
-    icon: ""
-  - name: Angular
-    icon: ""
   - name: Astro
-    icon: ""
+    icon: https://skillicons.dev/icons?i=astro
   - name: Bun
-    icon: ""
-  - name: Bootstrap
-    icon: ""
-  - name: Bulma
-    icon: ""
-  - name: C
-    icon: ""
-  - name: CSS3
-    icon: ""
-  - name: Deno
-    icon: ""
+    icon: https://skillicons.dev/icons?i=bun
   - name: Docker
-    icon: ""
-  - name: Express
-    icon: ""
-  - name: Figma
-    icon: ""
+    icon: https://skillicons.dev/icons?i=docker
   - name: Git
-    icon: ""
-  - name: GNU Bash
-    icon: ""
-  - name: HTML5
-    icon: ""
-  - name: JavaScript
-    icon: ""
-  - name: MariaDB
-    icon: ""
-  - name: MongoDB
-    icon: ""
-  - name: MySQL
-    icon: ""
-  - name: Node.js
-    icon: ""
+    icon: https://skillicons.dev/icons?i=git
   - name: OCaml
-    icon: ""
+    icon: https://skillicons.dev/icons?i=ocaml
   - name: PHP
-    icon: ""
-  - name: PostgreSQL
-    icon: ""
-  - name: Pug
-    icon: ""
+    icon: https://skillicons.dev/icons?i=php
   - name: Python
-    icon: ""
+    icon: https://skillicons.dev/icons?i=py
   - name: React
-    icon: ""
-  - name: SQLite
-    icon: ""
+    icon: https://skillicons.dev/icons?i=react
   - name: Symfony
-    icon: ""
+    icon: https://skillicons.dev/icons?i=symfony
   - name: TypeScript
-    icon: ""
+    icon: https://skillicons.dev/icons?i=ts
