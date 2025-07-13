@@ -29,11 +29,23 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
+      - name: Copy generated README.md to temp folder
+        run: |
+          mkdir -p tmp
+          cp README.md tmp/
+      
+      - name: Switch to main branch
+        run: |
+          git fetch origin main
+          git checkout main
+
+      - name: Copy README.md from temp to main
+        run: |
+          cp tmp/README.md README.md
+          rm -rf tmp
+
       - name: Commit README.md to main
         run: |
-          git checkout main
-          git pull origin main
-          git checkout dev -- README.md
           if git diff --quiet README.md; then
             echo "No changes to README.md"
           else
