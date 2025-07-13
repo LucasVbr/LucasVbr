@@ -35,8 +35,7 @@ jobs:
           cp README.md tmp/
 
       - name: Remove untracked README.md before checkout
-        run: |
-          git rm -f --ignore-unmatch README.md || rm -f README.md
+        run: git clean -fd
       
       - name: Switch to main branch
         run: |
