@@ -1,0 +1,7 @@
+{
+  "parser_type": "YAML",
+  "compiler_type": "HANDLEBARS",
+  "input_file": "src/templates/README.md.hbs",
+  "data_file": "static/README.yaml",
+  "output_file": "README.md"
+}

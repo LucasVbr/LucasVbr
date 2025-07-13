@@ -1,0 +1,70 @@
+author:
+  first_name: Lucàs
+  location: 🇫🇷 Toulouse, France
+  company: UPPA
+socials:
+  - name: Portfolio
+    icon: ""
+    url: https://www.lucasvbr.dev
+  - name: LinkedIn
+    icon: ""
+    url: https://www.linkedin.com/in/lucasvbr
+skills:
+  - name: Android
+    icon: ""
+  - name: Angular
+    icon: ""
+  - name: Astro
+    icon: ""
+  - name: Bun
+    icon: ""
+  - name: Bootstrap
+    icon: ""
+  - name: Bulma
+    icon: ""
+  - name: C
+    icon: ""
+  - name: CSS3
+    icon: ""
+  - name: Deno
+    icon: ""
+  - name: Docker
+    icon: ""
+  - name: Express
+    icon: ""
+  - name: Figma
+    icon: ""
+  - name: Git
+    icon: ""
+  - name: GNU Bash
+    icon: ""
+  - name: HTML5
+    icon: ""
+  - name: JavaScript
+    icon: ""
+  - name: MariaDB
+    icon: ""
+  - name: MongoDB
+    icon: ""
+  - name: MySQL
+    icon: ""
+  - name: Node.js
+    icon: ""
+  - name: OCaml
+    icon: ""
+  - name: PHP
+    icon: ""
+  - name: PostgreSQL
+    icon: ""
+  - name: Pug
+    icon: ""
+  - name: Python
+    icon: ""
+  - name: React
+    icon: ""
+  - name: SQLite
+    icon: ""
+  - name: Symfony
+    icon: ""
+  - name: TypeScript
+    icon: ""
