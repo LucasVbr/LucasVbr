@@ -1,55 +1,40 @@
-name: Build and Commit README
+name: Generate README and Deploy to Main
 
 on:
   push:
-    branches: [dev]
+    branches:
+      - dev
   workflow_dispatch:
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
+      - name: Checkout dev branch
         uses: actions/checkout@v4
         with:
+          ref: dev
           fetch-depth: 0
 
-      - name: Install Bun
+      - name: Set up Bun
         uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
 
       - name: Install dependencies
-        run: bun install --frozen-lockfile
+        run: bun install
 
-      - name: Run build
+      - name: Run README generator
         run: bun run build
 
-      - name: Configure Git
+      - name: Commit to main
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-      - name: Copy generated README.md to temp folder
-        run: |
-          mkdir -p tmp
-          cp README.md tmp/
-
-      - name: Remove untracked README.md before checkout
-        run: git clean -fd
-      
-      - name: Switch to main branch
-        run: |
-          git fetch origin main
           git checkout main
-
-      - name: Copy README.md from temp to main
-        run: |
-          cp tmp/README.md README.md
-          rm -rf tmp
-
-      - name: Commit README.md to main
-        run: |
-            git add README.md
-            git commit -m "chore(readme): update after build [CI]"
-            git push origin main --force
-          
+          git checkout dev -- README.md
+          git add README.md
+          git commit -m "chore: update README [auto]"
+          git push origin main
