@@ -7,8 +7,60 @@ on:
   workflow_dispatch:
 
 jobs:
-  build-and-deploy:
+  lint:
     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Cache Bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: bun-${{ runner.os }}-${{ hashFiles('bun.lockb') }}
+          restore-keys: |
+            bun-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Lint code
+        run: bun run lint
+
+  test:
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
+
+      - name: Cache Bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: bun-${{ runner.os }}-${{ hashFiles('bun.lockb') }}
+          restore-keys: |
+            bun-${{ runner.os }}-
+
+      - name: Install dependencies
+        run: bun install
+
+      - name: Run tests
+        run: bun test
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: test
 
     steps:
       - name: Checkout dev branch
@@ -22,30 +74,33 @@ jobs:
         with:
           bun-version: latest
 
+      - name: Cache Bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.bun/install/cache
+          key: bun-${{ runner.os }}-${{ hashFiles('bun.lockb') }}
+          restore-keys: |
+            bun-${{ runner.os }}-
+
       - name: Install dependencies
         run: bun install
 
       - name: Run README generator
         run: bun run build
 
-      - name: Commit to main
+      - name: Set up Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Sauvegarde le README généré
-          cp README.md /tmp/generated-readme.md
-
-          # Supprime le fichier local non suivi pour pouvoir changer de branche
-          rm README.md
-
-          # Change de branche
+      - name: Save generated README to main branch
+        run: |
+          mv build/README.md /tmp/README.md
           git checkout main
+          mv /tmp/README.md README.md
 
-          # Remet le README généré dans la branche main
-          cp /tmp/generated-readme.md README.md
-
-          # Commit & push
+      - name: Commit and push changes
+        run: |
           git add README.md
-          git commit -m "chore: update README [auto]" || echo "No changes to commit"
+          git commit -m "chore: update README [CI]" || echo "No changes to commit"
           git push origin main

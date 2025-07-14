@@ -1,8 +1,7 @@
-import {type Compiler, CompilerType} from '.';
-import {compile} from 'handlebars';
+import { type Compiler, CompilerType } from '.';
+import { compile } from 'handlebars';
 
 export class HandlebarsCompiler implements Compiler {
-
   static readonly TYPE: CompilerType = CompilerType.HANDLEBARS;
 
   private static instance: HandlebarsCompiler;

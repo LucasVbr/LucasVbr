@@ -1,23 +1,23 @@
 import config from '../config.json';
-import {CompilerFactory, CompilerType} from './compilers';
-import {ParserFactory, ParserType} from './parsers';
-import {Validator} from './validators/Validator.ts';
-import {FileManager} from './io/FileManager.ts';
-import {ReadmeSchema} from './validators/schemas';
+import { CompilerFactory, CompilerType } from './core/compilers';
+import { ParserFactory, ParserType } from './core/parsers';
+import { FileManager } from './core/io/FileManager.ts';
+import { Validator } from './validators/Validator.ts';
+import { ReadmeSchema } from './validators/schemas';
 
 /**
  * Point d'entrée du script
  */
 async function main(): Promise<void> {
-  const compiler = createCompiler(config.compiler_type);
-  const parser = createParser(config.parser_type);
+  const compiler = createCompiler(config.compilerType);
+  const parser = createParser(config.parserType);
   const validator = new Validator(ReadmeSchema);
 
-  const data = await loadData(config.data_file, parser, validator);
-  const template = await loadTemplate(config.input_file);
+  const data = await loadData(config.dataFile, parser, validator);
+  const template = await loadTemplate(config.templateFile);
   const result = compiler.compile(template, data);
 
-  await saveOutput(config.output_file, result);
+  await saveOutput(config.outputFile, result);
 }
 
 /**
@@ -45,8 +45,10 @@ function createParser(type: string) {
  * @param validator - Le validateur à utiliser pour valider les données
  */
 async function loadData(
-    path: string, parser: ReturnType<typeof createParser>,
-    validator: Validator) {
+  path: string,
+  parser: ReturnType<typeof createParser>,
+  validator: Validator
+) {
   const raw = await FileManager.read(path);
   const parsed = parser.parse(raw);
   return validator.validate(parsed);
@@ -71,5 +73,5 @@ async function saveOutput(path: string, content: string): Promise<void> {
 
 // Exécute le script principal
 main()
-    .then(() => console.log('🎉 Exécution terminée avec succès.'))
-    .catch(err => console.error('❌ Erreur pendant l’exécution:', err));
+  .then(() => console.log('🎉 Exécution terminée avec succès.'))
+  .catch((err) => console.error('❌ Erreur pendant l’exécution:', err));

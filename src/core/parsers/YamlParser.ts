@@ -1,11 +1,10 @@
-import {type Parser, ParserType} from '.';
-import {parse} from 'yaml';
+import { type Parser, ParserType } from '.';
+import { parse } from 'yaml';
 
 /**
  * YamlParser class implements the Parser interface for parsing YAML data.
  */
 export class YamlParser implements Parser {
-
   /**
    * The type of the parser.
    * This is used to identify the parser type in the system.
@@ -18,8 +17,7 @@ export class YamlParser implements Parser {
    */
   static instance?: YamlParser;
 
-  private constructor() {
-  }
+  private constructor() {}
 
   /**
    * @inheritdoc
@@ -42,8 +40,7 @@ export class YamlParser implements Parser {
     try {
       return parse(data);
     } catch (error) {
-      console.error('Error parsing YAML data:', error);
-      throw new Error('Failed to parse YAML data');
+      throw new Error('Failed to parse YAML data', { cause: error });
     }
   }
 }

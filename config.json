@@ -1,7 +1,9 @@
 {
-  "parser_type": "YAML",
-  "compiler_type": "HANDLEBARS",
-  "input_file": "src/templates/README.md.hbs",
-  "data_file": "static/README.yaml",
-  "output_file": "README.md"
+  "parserType": "YAML",
+  "dataFile": "config/README.yaml",
+
+  "compilerType": "HANDLEBARS",
+  "templateFile": "src/templates/README.md.hbs",
+
+  "outputFile": "build/README.md"
 }

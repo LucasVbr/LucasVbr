@@ -3,10 +3,28 @@
   "module": "src/index.ts",
   "type": "module",
   "scripts": {
-    "build": "bun run src/index.ts"
+    "build": "bun run src/index.ts",
+    "lint": "bunx eslint",
+    "lint:fix": "bunx eslint --fix",
+    "format": "bunx prettier --write .",
+    "format:check": "bunx prettier --check .",
+    "test": "bun test",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "@types/bun": "latest"
+    "@eslint/css": "^0.10.0",
+    "@eslint/js": "^9.31.0",
+    "@eslint/json": "^0.13.0",
+    "@eslint/markdown": "^7.0.0",
+    "@types/bun": "latest",
+    "eslint": "^9.31.0",
+    "eslint-config-prettier": "^10.1.5",
+    "eslint-plugin-prettier": "^5.5.1",
+    "globals": "^16.3.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^16.1.2",
+    "prettier": "^3.6.2",
+    "typescript-eslint": "^8.36.0"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
@@ -15,5 +33,12 @@
     "handlebars": "^4.7.8",
     "yaml": "^2.8.0",
     "zod": "^4.0.5"
+  },
+  "lint-staged": {
+    "*.{js,ts,jsx,tsx}": [
+      "bun run format",
+      "bun run lint:fix",
+      "bun run test"
+    ]
   }
 }

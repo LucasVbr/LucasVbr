@@ -1,16 +1,14 @@
-import type {ZodObject} from 'zod';
+import type { ZodObject } from 'zod';
 
 /**
  * Validator class for validating and parsing objects against a Zod schema.
  */
 export class Validator {
-
   /**
    * Creates an instance of the Validator.
    * @param schema - The Zod schema to validate against.
    */
-  constructor(private schema: ZodObject<any, any>) {
-  }
+  constructor(private schema: ZodObject) {}
 
   /**
    * Validates the given value against the schema.

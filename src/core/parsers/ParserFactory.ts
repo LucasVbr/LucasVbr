@@ -1,10 +1,9 @@
-import {ParserType, type Parser, YamlParser} from "."
+import { ParserType, type Parser, YamlParser } from '.';
 
 /**
  * Factory class for creating parser instances.
  */
 export class ParserFactory {
-
   /**
    * Creates and returns a parser instance based on the specified type.
    * @param type

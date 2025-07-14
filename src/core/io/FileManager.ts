@@ -1,11 +1,11 @@
-import {readFileSync, writeFileSync} from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { dirname } from 'node:path';
 
 /**
  * FileManager is a singleton class that provides methods to read and write files.
  * It ensures that only one instance of the FileManager exists throughout the application.
  */
 export class FileManager {
-
   /**
    * Reads the content of a file at the specified path.
    * @param {string} filePath - The path to the file to read.
@@ -25,6 +25,12 @@ export class FileManager {
    * @returns {Promise<void>} A promise that resolves when the write operation is complete.
    */
   public static async write(filePath: string, content: string): Promise<void> {
+    // Ensure the directory exists before writing the file
+    const dir: string = dirname(filePath);
+    if (!existsSync(dir)) {
+      mkdirSync(dir, { recursive: true });
+    }
+
     return writeFileSync(filePath, content, {
       encoding: 'utf-8',
       flag: 'w',
