@@ -33,19 +33,19 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Sauvegarder le README généré dans un fichier temporaire
+          # Sauvegarde le README généré
           cp README.md /tmp/generated-readme.md
 
-          # Changer de branche
+          # Supprime le fichier local non suivi pour pouvoir changer de branche
+          rm README.md
+
+          # Change de branche
           git checkout main
 
-          # Écraser le README de main avec celui généré
+          # Remet le README généré dans la branche main
           cp /tmp/generated-readme.md README.md
 
           # Commit & push
           git add README.md
           git commit -m "chore: update README [auto]" || echo "No changes to commit"
-          git push origin main
-          git add README.md
-          git commit -m "chore: update README [auto]"
           git push origin main
