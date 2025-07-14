@@ -1,5 +1,5 @@
-import {z} from 'zod';
-import {AuthorSchema, SkillSchema, SocialSchema} from '.';
+import { z } from 'zod';
+import { AuthorSchema, SkillSchema, SocialSchema } from '.';
 
 export const ReadmeSchema = z.object({
   author: AuthorSchema,

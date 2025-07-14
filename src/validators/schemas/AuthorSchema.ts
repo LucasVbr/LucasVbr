@@ -1,4 +1,4 @@
-import {z} from 'zod';
+import { z } from 'zod';
 
 export const AuthorSchema = z.object({
   first_name: z.string(),
