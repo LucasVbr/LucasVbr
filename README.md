@@ -10,40 +10,21 @@ I'm **Lucàs**, a passionate developer based in **🇫🇷 Toulouse, France**.
 
 ### 🌍 Connect with me
 
-[![Portfolio]()](https://www.lucasvbr.dev)
-[![LinkedIn]()](https://www.linkedin.com/in/lucasvbr)
+[![Portfolio](https://img.shields.io/static/v1?message&#x3D;Portfolio&amp;label&#x3D;&amp;color&#x3D;000&amp;labelColor&#x3D;&amp;style&#x3D;for-the-badge)](https://www.lucasvbr.dev)
+[![LinkedIn](https://img.shields.io/static/v1?message&#x3D;LinkedIn&amp;logo&#x3D;linkedin&amp;label&#x3D;&amp;color&#x3D;0077B5&amp;logoColor&#x3D;white&amp;labelColor&#x3D;&amp;style&#x3D;for-the-badge)](https://www.linkedin.com/in/lucasvbr)
 
 ### 🛠️ Tech Stack
 
-![Android]()
-![Angular]()
-![Astro]()
-![Bun]()
-![Bootstrap]()
-![Bulma]()
-![C]()
-![CSS3]()
-![Deno]()
-![Docker]()
-![Express]()
-![Figma]()
-![Git]()
-![GNU Bash]()
-![HTML5]()
-![JavaScript]()
-![MariaDB]()
-![MongoDB]()
-![MySQL]()
-![Node.js]()
-![OCaml]()
-![PHP]()
-![PostgreSQL]()
-![Pug]()
-![Python]()
-![React]()
-![SQLite]()
-![Symfony]()
-![TypeScript]()
+![Astro](https://skillicons.dev/icons?i&#x3D;astro)
+![Bun](https://skillicons.dev/icons?i&#x3D;bun)
+![Docker](https://skillicons.dev/icons?i&#x3D;docker)
+![Git](https://skillicons.dev/icons?i&#x3D;git)
+![OCaml](https://skillicons.dev/icons?i&#x3D;ocaml)
+![PHP](https://skillicons.dev/icons?i&#x3D;php)
+![Python](https://skillicons.dev/icons?i&#x3D;py)
+![React](https://skillicons.dev/icons?i&#x3D;react)
+![Symfony](https://skillicons.dev/icons?i&#x3D;symfony)
+![TypeScript](https://skillicons.dev/icons?i&#x3D;ts)
 
 ### 🤝 Let's collaborate
 
