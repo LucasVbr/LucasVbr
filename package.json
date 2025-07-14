@@ -9,7 +9,9 @@
     "format": "bunx prettier --write .",
     "format:check": "bunx prettier --check .",
     "test": "bun test",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "dev": "bun run format:check && bun run lint && bun run build",
+    "dev:watch": "bun run --watch src -- bun run dev"
   },
   "devDependencies": {
     "@eslint/css": "^0.10.0",

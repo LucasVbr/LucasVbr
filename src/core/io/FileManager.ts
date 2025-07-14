@@ -36,4 +36,17 @@ export class FileManager {
       flag: 'w',
     });
   }
+
+  /**
+   * Removes a file at the specified path.
+   * @param {string} filePath - The path to the file to remove.
+   * @returns {Promise<void>} A promise that resolves when the file is removed.
+   */
+  public static async remove(filePath: string): Promise<void> {
+    if (existsSync(filePath)) {
+      writeFileSync(filePath, '', { encoding: 'utf-8', flag: 'w' });
+    } else {
+      throw new Error(`File not found: ${filePath}`);
+    }
+  }
 }

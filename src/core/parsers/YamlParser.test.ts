@@ -1,8 +1,18 @@
 import { YamlParser } from './YamlParser';
+import { ParserType } from './ParserType';
 import { describe, expect, it } from 'bun:test';
 
 describe('YamlParser', () => {
   const parser = YamlParser.getInstance();
+
+  it('should return the singleton instance', () => {
+    expect(parser).toBeInstanceOf(YamlParser);
+    expect(YamlParser.getInstance()).toBe(parser);
+  });
+
+  it('should have the correct parser type', () => {
+    expect(YamlParser.TYPE).toBe(ParserType.YAML);
+  });
 
   it('should parse valid YAML data', () => {
     type Fixture = {
