@@ -33,8 +33,19 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+          # Stash le README généré
+          git stash push -m "generated-readme" README.md
+
+          # Switch vers main
           git checkout main
-          git checkout dev -- README.md
+
+          # Appliquer le README généré depuis le stash
+          git stash pop
+
+          # Commit si nécessaire
+          git add README.md
+          git commit -m "chore: update README [auto]" || echo "No changes to commit"
+          git push origin main
           git add README.md
           git commit -m "chore: update README [auto]"
           git push origin main
