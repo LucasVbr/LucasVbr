@@ -4,13 +4,11 @@ I'm **Lucàs**, a passionate developer based in **🇫🇷 Toulouse, France**.
 
 ### 🚀 What I do
 
-- 💻 Currently, I'm studying at **UPPA** for my Master's degree in Informatics.
 - 🌐 I specialize in Web Development, and I'm always eager to explore new technologies and frameworks.
 - 🌱 I'm constantly learning and expanding my skill set to stay up-to-date with the ever-evolving tech landscape.
 
 ### 🌍 Connect with me
 
-[![Portfolio](https://img.shields.io/static/v1?message&#x3D;Portfolio&amp;label&#x3D;&amp;color&#x3D;000&amp;labelColor&#x3D;&amp;style&#x3D;for-the-badge)](https://www.lucasvbr.dev)
 [![LinkedIn](https://img.shields.io/static/v1?message&#x3D;LinkedIn&amp;logo&#x3D;linkedin&amp;label&#x3D;&amp;color&#x3D;0077B5&amp;logoColor&#x3D;white&amp;labelColor&#x3D;&amp;style&#x3D;for-the-badge)](https://www.linkedin.com/in/lucasvbr)
 
 ### 🛠️ Tech Stack
